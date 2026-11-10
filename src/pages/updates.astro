@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import { project } from '../content/project';
+
+const updates = [...project.updates].reverse();
+---
+
+<Base title="Updates | IKTVA 2027">
+  <section class="updates-page">
+    <div class="container">
+      <h1 class="page-title animate-in" style="--delay: 0.1s">Updates</h1>
+      <p class="page-desc animate-in" style="--delay: 0.2s">Production timeline and progress log.</p>
+
+      <div class="update-list">
+        {updates.map((update, i) => (
+          <article class="update-entry animate-in" style={`--delay: ${0.2 + i * 0.1}s`}>
+            <div class="update-dot"></div>
+            <div class="update-content">
+              <span class="update-date">{update.date}</span>
+              <h2 class="update-title">{update.title}</h2>
+              <p class="update-desc">{update.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .updates-page {
+    min-height: 100vh;
+    padding-top: calc(var(--header-height) + var(--space-xl));
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .page-desc {
+    color: var(--color-fg-muted);
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-lg);
+  }
+
+  .update-list {
+    border-left: 2px solid var(--color-border);
+    padding-left: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .update-entry {
+    position: relative;
+  }
+
+  .update-dot {
+    position: absolute;
+    left: calc(-1 * var(--space-md) - 5px);
+    top: 0.5rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-accent);
+  }
+
+  .update-date {
+    font-size: 0.75rem;
+    color: var(--color-fg-muted);
+    font-family: var(--font-mono);
+  }
+
+  .update-title {
+    font-size: 1.125rem;
+    margin-top: 0.25rem;
+  }
+
+  .update-desc {
+    font-size: 0.875rem;
+    color: var(--color-fg-muted);
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    max-width: 600px;
+  }
+</style>

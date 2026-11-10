@@ -1,0 +1,252 @@
+---
+import Base from '../layouts/Base.astro';
+import { project } from '../content/project';
+---
+
+<Base title="IKTVA 2027 | Off the Scale">
+  <section class="hero">
+    <div class="container">
+      <span class="hero-tag animate-in" style="--delay: 0.1s">{project.code} / {project.status}</span>
+      <h1 class="animate-in" style="--delay: 0.2s">{project.title}</h1>
+      <p class="hero-desc animate-in" style="--delay: 0.3s">{project.description}</p>
+      <div class="hero-meta animate-in" style="--delay: 0.4s">
+        <div class="meta-item">
+          <span class="meta-label">Client</span>
+          <span class="meta-value">{project.client}</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Venue</span>
+          <span class="meta-value">{project.venue}</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Producer</span>
+          <span class="meta-value">{project.producer}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="specs">
+    <div class="container">
+      <h2 class="section-title animate-in" style="--delay: 0.5s">Screen Specs</h2>
+      <div class="spec-grid animate-in" style="--delay: 0.6s">
+        {project.screenSpecs.map(spec => (
+          <div class="spec-row">
+            <span class="spec-label">{spec.label}</span>
+            <span class="spec-value">{spec.value}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="links-section">
+    <div class="container">
+      <h2 class="section-title animate-in" style="--delay: 0.7s">Key Links</h2>
+      <div class="link-list animate-in" style="--delay: 0.8s">
+        {project.links.map(link => (
+          <a href={link.url} target="_blank" rel="noopener noreferrer" class="link-item">
+            <span class="link-label">{link.label}</span>
+            <span class="link-arrow">&rarr;</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="latest">
+    <div class="container">
+      <h2 class="section-title animate-in" style="--delay: 0.9s">Latest Updates</h2>
+      {project.updates.slice(0, 3).map((update, i) => (
+        <div class="update-card animate-in" style={`--delay: ${1.0 + i * 0.1}s`}>
+          <span class="update-date">{update.date}</span>
+          <h3 class="update-title">{update.title}</h3>
+          <p class="update-desc">{update.description}</p>
+        </div>
+      ))}
+      <a href={`${import.meta.env.BASE_URL}updates`} class="view-all">View full timeline &rarr;</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding: calc(var(--header-height) + var(--space-xl)) 0 var(--space-lg);
+  }
+
+  .hero-tag {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-accent);
+    font-weight: 600;
+    display: block;
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-mono);
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+  }
+
+  .hero-desc {
+    font-size: 1.125rem;
+    color: var(--color-fg-muted);
+    max-width: 600px;
+    line-height: 1.6;
+    margin-top: var(--space-md);
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: var(--space-lg);
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .meta-label {
+    display: block;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-fg-muted);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .meta-value {
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+
+  .specs, .links-section, .latest {
+    padding: var(--space-lg) 0;
+  }
+
+  .section-title {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-fg-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+  }
+
+  .spec-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .spec-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-md);
+    padding: 0.75rem var(--space-sm);
+    background: var(--color-bg-muted);
+  }
+
+  .spec-label {
+    font-size: 0.8125rem;
+    color: var(--color-fg-muted);
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .spec-value {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: right;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+  }
+
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .link-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem var(--space-sm);
+    background: var(--color-bg-muted);
+    transition: background 0.15s ease;
+  }
+
+  .link-item:hover {
+    background: var(--color-bg);
+  }
+
+  .link-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .link-arrow {
+    color: var(--color-accent);
+    font-size: 0.875rem;
+  }
+
+  .update-card {
+    padding: var(--space-md);
+    background: var(--color-bg-muted);
+    border-radius: 4px;
+    margin-bottom: var(--space-xs);
+  }
+
+  .update-date {
+    font-size: 0.75rem;
+    color: var(--color-fg-muted);
+    font-family: var(--font-mono);
+  }
+
+  .update-title {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-top: 0.5rem;
+  }
+
+  .update-desc {
+    font-size: 0.875rem;
+    color: var(--color-fg-muted);
+    margin-top: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .view-all {
+    display: inline-block;
+    margin-top: var(--space-sm);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-accent);
+  }
+
+  @media (max-width: 639px) {
+    .hero-meta {
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+
+    .spec-row {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .spec-value {
+      text-align: left;
+    }
+  }
+</style>

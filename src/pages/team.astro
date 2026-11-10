@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import { project } from '../content/project';
+---
+
+<Base title="Team | Iktva">
+  <section class="team-page">
+    <div class="container">
+      <h1 class="page-title animate-in" style="--delay: 0.1s">Team</h1>
+      <p class="page-desc animate-in" style="--delay: 0.2s">People working on this project.</p>
+
+      <div class="team-grid">
+        {project.team.map((member, i) => (
+          <div class="team-card animate-in" style={`--delay: ${0.3 + i * 0.1}s`}>
+            <div class="team-avatar">{member.name.split(' ').map(n => n[0]).join('')}</div>
+            <div class="team-info">
+              <span class="team-name">{member.name}</span>
+              <span class="team-role">{member.role}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .team-page {
+    min-height: 100vh;
+    padding-top: calc(var(--header-height) + var(--space-xl));
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .page-desc {
+    color: var(--color-fg-muted);
+    margin-top: var(--space-xs);
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-sm);
+    margin-top: var(--space-lg);
+  }
+
+  .team-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm);
+    background: var(--color-bg-muted);
+    border-radius: 4px;
+  }
+
+  .team-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
+  }
+
+  .team-name {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9375rem;
+  }
+
+  .team-role {
+    display: block;
+    font-size: 0.8125rem;
+    color: var(--color-fg-muted);
+  }
+</style>
