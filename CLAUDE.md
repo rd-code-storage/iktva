@@ -116,6 +116,7 @@ For changes to be labelled with the right person:
 - Commit as the person who asked for the change: their git `user.name` must be their real name (e.g. "Alex Gorcik"). Never author commits as "Claude" on someone's behalf.
 - When Claude helped make the change, add a `Co-Authored-By: Claude ...` trailer. The page shows that as a "with Claude" tag next to the person's name.
 - Don't rewrite or force-push `main`: the history is the audit trail.
+- Early commits saved as "Claude" are credited to the right person in `src/content/credits.ts` (by full commit hash). Only add past commits there; new commits should be authored correctly.
 - Email addresses are not shown on the page (the site is public).
 
 ## Google Drive integration

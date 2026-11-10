@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { execSync } from 'node:child_process';
+import { creditOverrides } from '../content/credits';
 
 // Change tracker built from the repo's git history at build time.
 // Every push to main redeploys the site, so this page is always current.
@@ -63,10 +64,11 @@ try {
         .filter((f) => !f.path.endsWith('.gitkeep'));
 
       const isClaudeAuthor = author.trim().toLowerCase() === 'claude';
+      const credited = creditOverrides[hash];
       return {
         hash,
         short: hash.slice(0, 7),
-        author: author.trim(),
+        author: credited ?? author.trim(),
         date,
         subject: subject.trim(),
         body: body
@@ -74,7 +76,9 @@ try {
           .filter((l) => !/^co-authored-by:/i.test(l.trim()))
           .join('\n')
           .trim(),
-        withClaude: !isClaudeAuthor && /co-authored-by:\s*claude/i.test(body),
+        withClaude:
+          (credited !== undefined && isClaudeAuthor) ||
+          (!isClaudeAuthor && /co-authored-by:\s*claude/i.test(body)),
         files,
       };
     });
