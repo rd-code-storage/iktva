@@ -2,7 +2,12 @@
 import Base from '../layouts/Base.astro';
 import { project } from '../content/project';
 
-const updates = [...project.updates].reverse();
+const updates = project.updates;
+
+function formatDate(dateStr: string): string {
+  const [y, m, d] = dateStr.split('-');
+  return `${d}/${m}/${y}`;
+}
 ---
 
 <Base title="Updates | IKTVA 2027">
@@ -16,7 +21,7 @@ const updates = [...project.updates].reverse();
           <article class="update-entry animate-in" style={`--delay: ${0.2 + i * 0.1}s`}>
             <div class="update-dot"></div>
             <div class="update-content">
-              <span class="update-date">{update.date}</span>
+              <span class="update-date">{formatDate(update.date)}</span>
               <h2 class="update-title">{update.title}</h2>
               <p class="update-desc">{update.description}</p>
             </div>

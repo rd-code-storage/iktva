@@ -1,6 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import { project } from '../content/project';
+
+function formatDate(dateStr: string): string {
+  const [y, m, d] = dateStr.split('-');
+  return `${d}/${m}/${y}`;
+}
 ---
 
 <Base title="IKTVA 2027 | Off the Scale">
@@ -59,7 +64,7 @@ import { project } from '../content/project';
       <h2 class="section-title animate-in" style="--delay: 0.9s">Latest Updates</h2>
       {project.updates.slice(0, 3).map((update, i) => (
         <div class="update-card animate-in" style={`--delay: ${1.0 + i * 0.1}s`}>
-          <span class="update-date">{update.date}</span>
+          <span class="update-date">{formatDate(update.date)}</span>
           <h3 class="update-title">{update.title}</h3>
           <p class="update-desc">{update.description}</p>
         </div>
