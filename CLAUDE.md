@@ -108,6 +108,16 @@ All in `src/content/project.ts`:
 - **Large files**: Anything over 50MB should go on Google Drive, not in the repo. Add a link to it in the assets catalog.
 - **Commit messages**: Be descriptive. e.g. "Add Hall 1 render screenshots from Alex" not "update files".
 
+## Change tracker
+
+The Changes page (`src/pages/changes.astro`, at /iktva/changes/) lists every commit, newest first, labelled with its git author name, and can be filtered by person. It is generated from `git log` at build time, so there is nothing to edit by hand. The deploy workflow checks out full history (`fetch-depth: 0`) for this.
+
+For changes to be labelled with the right person:
+- Commit as the person who asked for the change: their git `user.name` must be their real name (e.g. "Alex Gorcik"). Never author commits as "Claude" on someone's behalf.
+- When Claude helped make the change, add a `Co-Authored-By: Claude ...` trailer. The page shows that as a "with Claude" tag next to the person's name.
+- Don't rewrite or force-push `main`: the history is the audit trail.
+- Email addresses are not shown on the page (the site is public).
+
 ## Google Drive integration
 
 The shared Drive folder for large animation files:
