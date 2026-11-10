@@ -35,8 +35,9 @@ export const assets: Asset[] = [
     author: 'Alex Gorcik',
     date: '2026-11-10',
     description:
-      'Scale mock-up of Dharan Expo Hall 1 with adjustable screen length. Used for forced perspective testing and sweet-spot validation.',
+      'Scale mock-up of Dharan Expo Hall 1 with adjustable screen length. Used for forced perspective testing and sweet-spot validation. V01 is a test version of the Grand Hall model (Cinema 4D).',
     files: [
+      { path: 'assets/models/iktva-grand-hall-v01.c4d', label: 'Iktva Grand Hall_V01.c4d (test)', size: '691 KB' },
       { path: 'https://drive.google.com/drive/folders/1ztclxJnyhjJi4RaBB8Py_YkhFtGuVGsv', label: 'Google Drive folder' },
     ],
     thumbnail: undefined,
