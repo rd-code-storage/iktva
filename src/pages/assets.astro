@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { assets, categoryLabels, type AssetCategory } from '../content/assets';
+import { assets, categoryLabels, driveFolder, type AssetCategory } from '../content/assets';
 
 const categories = Object.entries(categoryLabels) as [AssetCategory, string][];
 const base = import.meta.env.BASE_URL;
@@ -10,7 +10,13 @@ const base = import.meta.env.BASE_URL;
   <section class="assets-page">
     <div class="container">
       <h1 class="page-title animate-in" style="--delay: 0.1s">Assets</h1>
-      <p class="page-desc animate-in" style="--delay: 0.2s">Scripts, references, renders, documents and 3D models for the animation team. Files are stored in this repo and deployed automatically.</p>
+      <p class="page-desc animate-in" style="--delay: 0.2s">Scripts, references, renders, documents and 3D models for the animation team. Small files live in this repo. Large files (3D models, renders, video) live on Google Drive.</p>
+
+      <a href={driveFolder} target="_blank" rel="noopener noreferrer" class="drive-banner animate-in" style="--delay: 0.25s">
+        <span class="drive-label">Animation Files on Google Drive</span>
+        <span class="drive-path">2491 - IKTVA - 2027 off the scale / 04. Animation Files</span>
+        <span class="drive-arrow">&rarr;</span>
+      </a>
 
       <div class="filter-bar animate-in" style="--delay: 0.3s">
         <button class="filter-btn active" data-category="all">All</button>
@@ -133,6 +139,46 @@ const base = import.meta.env.BASE_URL;
     background: var(--color-fg);
     color: var(--color-bg);
     border-color: var(--color-fg);
+  }
+
+  .drive-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-sm);
+    background: var(--color-bg-muted);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    transition: border-color 0.15s ease;
+  }
+
+  .drive-banner:hover {
+    border-color: var(--color-accent);
+    color: var(--color-fg);
+  }
+
+  .drive-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .drive-path {
+    font-size: 0.75rem;
+    color: var(--color-fg-muted);
+    font-family: var(--font-mono);
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .drive-arrow {
+    margin-left: auto;
+    color: var(--color-accent);
+    font-size: 0.875rem;
+    flex-shrink: 0;
   }
 
   .upload-hint {

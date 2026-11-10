@@ -17,6 +17,8 @@ export interface Asset {
   thumbnail?: string;
 }
 
+export const driveFolder = 'https://drive.google.com/drive/folders/1ztclxJnyhjJi4RaBB8Py_YkhFtGuVGsv';
+
 export const categoryLabels: Record<AssetCategory, string> = {
   script: 'Scripts',
   reference: 'References',
@@ -34,7 +36,9 @@ export const assets: Asset[] = [
     date: '2026-11-10',
     description:
       'Scale mock-up of Dharan Expo Hall 1 with adjustable screen length. Used for forced perspective testing and sweet-spot validation.',
-    files: [],
+    files: [
+      { path: 'https://drive.google.com/drive/folders/1ztclxJnyhjJi4RaBB8Py_YkhFtGuVGsv', label: 'Google Drive folder' },
+    ],
     thumbnail: undefined,
   },
   {

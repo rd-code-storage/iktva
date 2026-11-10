@@ -98,6 +98,10 @@ export const project: ProjectInfo = {
       url: 'https://richardattiasassociates.com/en',
     },
     {
+      label: 'Animation Files (Google Drive)',
+      url: 'https://drive.google.com/drive/folders/1ztclxJnyhjJi4RaBB8Py_YkhFtGuVGsv',
+    },
+    {
       label: 'Slack channel',
       url: 'https://wearerd.slack.com/archives/C0CE2M658SK',
     },
