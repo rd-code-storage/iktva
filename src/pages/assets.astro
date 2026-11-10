@@ -1,0 +1,336 @@
+---
+import Base from '../layouts/Base.astro';
+import { assets, categoryLabels, type AssetCategory } from '../content/assets';
+
+const categories = Object.entries(categoryLabels) as [AssetCategory, string][];
+const base = import.meta.env.BASE_URL;
+---
+
+<Base title="Assets | IKTVA 2027">
+  <section class="assets-page">
+    <div class="container">
+      <h1 class="page-title animate-in" style="--delay: 0.1s">Assets</h1>
+      <p class="page-desc animate-in" style="--delay: 0.2s">Scripts, references, renders, documents and 3D models for the animation team. Files are stored in this repo and deployed automatically.</p>
+
+      <div class="filter-bar animate-in" style="--delay: 0.3s">
+        <button class="filter-btn active" data-category="all">All</button>
+        {categories.map(([key, label]) => (
+          <button class="filter-btn" data-category={key}>{label}</button>
+        ))}
+      </div>
+
+      <div class="upload-hint animate-in" style="--delay: 0.35s">
+        To add files: send them to Claude and they will be committed to the repo and appear here on next deploy.
+      </div>
+
+      {assets.length === 0 ? (
+        <div class="empty-state animate-in" style="--delay: 0.4s">
+          <p>No assets yet. Send files to Claude to get started.</p>
+        </div>
+      ) : (
+        <div class="asset-grid" id="asset-grid">
+          {assets.map((asset, i) => (
+            <div class="asset-card animate-in" data-category={asset.category} style={`--delay: ${0.4 + i * 0.05}s`}>
+              {asset.thumbnail ? (
+                <div class="asset-thumb">
+                  <img src={`${base}${asset.thumbnail}`} alt={asset.title} loading="lazy" />
+                </div>
+              ) : (
+                <div class="asset-thumb asset-thumb-placeholder">
+                  <span class="thumb-icon" data-cat={asset.category}></span>
+                </div>
+              )}
+              <div class="asset-info">
+                <span class="asset-category">{categoryLabels[asset.category]}</span>
+                <h3 class="asset-title">{asset.title}</h3>
+                <p class="asset-desc">{asset.description}</p>
+                <div class="asset-meta">
+                  <span class="asset-author">{asset.author}</span>
+                  <span class="asset-date">{asset.date}</span>
+                </div>
+                {asset.files.length > 0 && (
+                  <div class="asset-files">
+                    {asset.files.map(file => {
+                      const isExternal = file.path.startsWith('http');
+                      const href = isExternal ? file.path : `${base}${file.path}`;
+                      return (
+                        <a href={href} target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener noreferrer' : undefined} class="file-link">
+                          {file.label}
+                          {file.size && <span class="file-size">{file.size}</span>}
+                          <span class="file-arrow">&rarr;</span>
+                        </a>
+                      );
+                    })}
+                  </div>
+                )}
+                {asset.files.length === 0 && (
+                  <p class="no-files">File pending upload</p>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div class="folder-map animate-in" style="--delay: 0.8s">
+        <h2 class="section-label">Repo folder structure</h2>
+        <pre class="folder-tree"><code>public/assets/
+  scripts/      Python, C4D, Blender scripts
+  references/   Reference images, videos, mood boards
+  renders/      Test renders, final renders
+  documents/    PDFs, specs, delivery guides
+  models/       3D model files (C4D, OBJ, FBX)</code></pre>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .assets-page {
+    min-height: 100vh;
+    padding-top: calc(var(--header-height) + var(--space-xl));
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .page-desc {
+    color: var(--color-fg-muted);
+    margin-top: var(--space-xs);
+    max-width: 600px;
+    line-height: 1.5;
+  }
+
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: var(--space-md);
+  }
+
+  .filter-btn {
+    background: var(--color-bg-muted);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-fg-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: var(--font-body);
+  }
+
+  .filter-btn:hover {
+    color: var(--color-fg);
+    border-color: var(--color-fg-muted);
+  }
+
+  .filter-btn.active {
+    background: var(--color-fg);
+    color: var(--color-bg);
+    border-color: var(--color-fg);
+  }
+
+  .upload-hint {
+    font-size: 0.8125rem;
+    color: var(--color-fg-muted);
+    padding: var(--space-sm);
+    background: var(--color-bg-muted);
+    border-radius: 4px;
+    border-left: 3px solid var(--color-accent);
+    margin-top: var(--space-sm);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: var(--space-xl) 0;
+    color: var(--color-fg-muted);
+  }
+
+  .asset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-sm);
+    margin-top: var(--space-md);
+  }
+
+  .asset-card {
+    background: var(--color-bg-muted);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: opacity 0.2s ease;
+  }
+
+  .asset-card.hidden {
+    display: none;
+  }
+
+  .asset-thumb {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--color-border);
+  }
+
+  .asset-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .asset-thumb-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .thumb-icon::before {
+    font-size: 1.5rem;
+    opacity: 0.4;
+  }
+
+  .thumb-icon[data-cat="script"]::before { content: '</>'; font-family: var(--font-mono); font-size: 1.25rem; }
+  .thumb-icon[data-cat="reference"]::before { content: 'REF'; font-family: var(--font-mono); font-size: 1rem; letter-spacing: 0.1em; }
+  .thumb-icon[data-cat="render"]::before { content: 'RND'; font-family: var(--font-mono); font-size: 1rem; letter-spacing: 0.1em; }
+  .thumb-icon[data-cat="document"]::before { content: 'DOC'; font-family: var(--font-mono); font-size: 1rem; letter-spacing: 0.1em; }
+  .thumb-icon[data-cat="model"]::before { content: '3D'; font-family: var(--font-mono); font-size: 1.25rem; letter-spacing: 0.05em; }
+
+  .asset-info {
+    padding: var(--space-sm);
+  }
+
+  .asset-category {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  .asset-title {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-top: 0.375rem;
+  }
+
+  .asset-desc {
+    font-size: 0.8125rem;
+    color: var(--color-fg-muted);
+    line-height: 1.5;
+    margin-top: 0.5rem;
+  }
+
+  .asset-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+    font-size: 0.6875rem;
+    color: var(--color-fg-muted);
+    font-family: var(--font-mono);
+  }
+
+  .asset-files {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 0.75rem;
+    background: var(--color-border);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .file-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.625rem;
+    background: var(--color-bg);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    transition: background 0.15s ease;
+  }
+
+  .file-link:hover {
+    background: var(--color-bg-muted);
+    color: var(--color-accent);
+  }
+
+  .file-size {
+    font-size: 0.6875rem;
+    color: var(--color-fg-muted);
+    font-family: var(--font-mono);
+  }
+
+  .file-arrow {
+    margin-left: auto;
+    color: var(--color-accent);
+    font-size: 0.75rem;
+  }
+
+  .no-files {
+    font-size: 0.75rem;
+    color: var(--color-fg-muted);
+    font-style: italic;
+    margin-top: 0.75rem;
+  }
+
+  .folder-map {
+    margin-top: var(--space-xl);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .section-label {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-fg-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+  }
+
+  .folder-tree {
+    background: var(--color-bg-muted);
+    padding: var(--space-sm);
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+
+  .folder-tree code {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    line-height: 1.7;
+    color: var(--color-fg-muted);
+  }
+
+  @media (max-width: 639px) {
+    .asset-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script>
+  const buttons = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.asset-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const cat = btn.getAttribute('data-category');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-category') === cat) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  });
+</script>
