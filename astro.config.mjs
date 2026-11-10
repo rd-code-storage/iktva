@@ -6,4 +6,5 @@ export default defineConfig({
   integrations: [mdx(), sitemap()],
   site: 'https://rd-code-storage.github.io',
   base: '/iktva',
+  trailingSlash: 'always',
 });
