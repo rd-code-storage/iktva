@@ -78,4 +78,16 @@ export const assets: Asset[] = [
       },
     ],
   },
+  {
+    id: 'sweet-spot-calc',
+    title: 'Sweet Spot Calculator',
+    category: 'script',
+    author: 'Claude (test)',
+    date: '2026-11-10',
+    description:
+      'Python script that calculates the optimal viewing position for forced perspective projection given screen dimensions and curvature radius. Run from the command line with screen width, height, and curve radius.',
+    files: [
+      { path: 'assets/scripts/sweet_spot_calc.py', label: 'sweet_spot_calc.py', size: '1.8 KB' },
+    ],
+  },
 ];
