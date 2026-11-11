@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-11T15:18:50.5812331Z",
-    "fileCount":  1124,
+    "scannedAt":  "2026-11-11T16:18:50.5806582Z",
+    "fileCount":  1127,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -4447,6 +4447,18 @@
                                                                 836207,
                                                                 "2026-11-04T13:16:41.6655349Z"
                                                             ],
+                  "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v01.png":  [
+                                                                                        5024877,
+                                                                                        "2026-11-11T15:54:41.0905155Z"
+                                                                                    ],
+                  "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v02.png":  [
+                                                                                        5005922,
+                                                                                        "2026-11-11T15:58:29.0526164Z"
+                                                                                    ],
+                  "05. Assets\\Gen AI Refernces\\Welder\\View 2\\View_2_01.png":  [
+                                                                                      5961597,
+                                                                                      "2026-11-11T16:13:32.5469573Z"
+                                                                                  ],
                   "05. Assets\\Scripts\\2482 - IKTVA 2027 Event Film - Off the Scale_Script_v03.docx":  [
                                                                                                             21755,
                                                                                                             "2026-11-11T11:56:32.2246290Z"
@@ -4568,6 +4580,9 @@
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\Ref Exports\\10.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\Ref Exports\\11.png":  "Alex Gorcik",
                    "04. 3D\\Ref pics\\Ref for Chatgpt.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v01.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v02.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Welder\\View 2\\View_2_01.png":  "Alex Gorcik",
                    "05. Assets\\Scripts\\2482 - IKTVA 2027 Event Film - Off the Scale_Script_v03.docx":  "Alex Gorcik",
                    "05. Assets\\Test shots\\IMG_4110.MOV":  "Alex Gorcik",
                    "05. Assets\\Test shots\\IMG_4111.MOV":  "Alex Gorcik",
