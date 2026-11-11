@@ -41,7 +41,7 @@ export const shots: Shot[] = [
     status: 'Rendering',
     match: 'GrandHall_TEST|Grand Hall_V\\d+_TEST_RobotArm|RobotArm',
     duration: '91 frames (3 s at 30 fps)',
-    notes: 'Room previews V01 to V05 rendered on 10-11/11. Flat file and eye passes at V02.',
+    notes: 'Room previews V01 to V05 rendered on 10-11/11. Latest full eye and flat file renders are the unversioned 91-frame ones from 10/11; eye V02 is a partial 13-frame render and the flat file V02 folder is empty.',
   },
   {
     id: 'MASTER',
