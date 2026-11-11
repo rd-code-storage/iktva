@@ -1,0 +1,116 @@
+---
+import Base from '../layouts/Base.astro';
+import { shots } from '../content/shots';
+import { fileEvents, latestVersion, stamp } from '../content/timeline';
+
+const rows = shots.map((s) => {
+  const re = s.match ? new RegExp(s.match, 'i') : null;
+  const related = re ? fileEvents.filter((e) => re.test(`${e.path}\\${e.name}`)) : [];
+  const last = related.reduce<(typeof related)[number] | undefined>(
+    (acc, e) => (!acc || e.date > acc.date ? e : acc),
+    undefined,
+  );
+  return { ...s, version: latestVersion(related), last };
+});
+
+const counts = rows.reduce<Record<string, number>>((acc, r) => {
+  acc[r.status] = (acc[r.status] ?? 0) + 1;
+  return acc;
+}, {});
+---
+
+<Base title="Shots | IKTVA 2027" description="Every shot and task, who owns it and where it is.">
+  <section class="kb-page">
+    <div class="container">
+      <h1 class="kb-title animate-in" style="--delay: 0.1s">Shots</h1>
+      <p class="kb-desc animate-in" style="--delay: 0.2s">
+        Every shot and 3D task, who owns it and what state it is in. The latest version and last activity
+        update automatically from the files in the 3D folder. Status and owner are set by the team
+        in <span class="kb-mono">src/content/shots.ts</span>.
+      </p>
+
+      <div class="summary">
+        {Object.entries(counts).map(([status, n]) => (
+          <span class="kb-pill">{status}: {n}</span>
+        ))}
+      </div>
+
+      <div class="table-wrap">
+        <table class="kb-table shots">
+          <thead>
+            <tr>
+              <th scope="col">Shot</th>
+              <th scope="col">Status</th>
+              <th scope="col">Owner</th>
+              <th scope="col">Latest</th>
+              <th scope="col">Last activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r) => (
+              <tr>
+                <td>
+                  <span class="kb-mono shot-id">{r.id}</span>
+                  {r.name}
+                  <span class="kb-note">{r.description}</span>
+                  {r.duration && <span class="kb-note">Duration: {r.duration}</span>}
+                  {r.notes && <span class="kb-note"><em>{r.notes}</em></span>}
+                </td>
+                <td><span class={`kb-pill status status-${r.status.toLowerCase().replace(/[^a-z]+/g, '-')}`}>{r.status}</span></td>
+                <td>{r.owner}</td>
+                <td class="kb-mono">{r.version ?? '-'}</td>
+                <td>
+                  {r.last ? (
+                    <>
+                      <span class="kb-mono">{stamp(r.last.date)}</span>
+                      <span class="kb-note">{r.last.title}</span>
+                    </>
+                  ) : (
+                    '-'
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: var(--space-md);
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+  }
+
+  .shots {
+    min-width: 720px;
+  }
+
+  .shots td:first-child {
+    width: 40%;
+  }
+
+  .shot-id {
+    display: block;
+    font-size: 0.6875rem;
+    color: var(--color-fg-muted);
+    font-weight: 400;
+  }
+
+  .status-rendering,
+  .status-animating,
+  .status-lighting,
+  .status-blocking { color: var(--color-accent); border-color: currentColor; }
+  .status-approved,
+  .status-delivered { color: #16a34a; border-color: currentColor; }
+  .status-changes { color: #dc2626; border-color: currentColor; }
+  .status-in-review { color: #b45309; border-color: currentColor; }
+</style>

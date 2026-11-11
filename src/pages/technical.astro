@@ -1,160 +1,247 @@
 ---
 import Base from '../layouts/Base.astro';
+import {
+  sceneSetup,
+  renderPasses,
+  ledWall,
+  ledWallNote,
+  cameras,
+  sweetSpotNote,
+  namingRules,
+  namingNote,
+  folderLayout,
+  deliverySpec,
+  deliveryChecklist,
+  gotchas,
+  glossary,
+  type Spec,
+} from '../content/pipeline';
+
+const base = import.meta.env.BASE_URL;
+
+const contents = [
+  ['forced-perspective', 'Forced perspective'],
+  ['scene-setup', 'Scene setup'],
+  ['render-passes', 'Render passes'],
+  ['led-wall', 'LED wall'],
+  ['cameras', 'Cameras & sweet spot'],
+  ['naming', 'Naming & folders'],
+  ['delivery', 'Delivery spec'],
+  ['gotchas', 'Known issues'],
+  ['scripts', 'Scripts'],
+  ['glossary', 'Glossary'],
+];
+
+const specRows = (rows: Spec[]) => rows;
 ---
 
 <Base title="Technical | IKTVA 2027">
-  <section class="tech-page">
+  <section class="kb-page">
     <div class="container">
-      <h1 class="page-title animate-in" style="--delay: 0.1s">Technical</h1>
-      <p class="page-desc animate-in" style="--delay: 0.2s">Screen specifications, forced perspective workflow, and rendering pipeline documentation.</p>
+      <h1 class="kb-title animate-in" style="--delay: 0.1s">Technical</h1>
+      <p class="kb-desc animate-in" style="--delay: 0.2s">
+        How the 3D is built: scene standards, the render passes, the LED wall, cameras, naming and delivery.
+        Values marked <span class="kb-tbc">TBC</span> are working assumptions still to be confirmed.
+      </p>
 
-      <div class="doc-sections">
-        <article class="doc-section animate-in" style="--delay: 0.3s">
-          <h2 class="section-label">Forced Perspective / Anamorphic 3D</h2>
-          <div class="doc-content">
-            <p>The event film uses forced-perspective projection across curved multi-panel screens. Viewed from a designated sweet spot in the audience, flat 2D content appears to extend into three-dimensional space.</p>
-            <h3>Key concepts</h3>
-            <ul>
-              <li><strong>Sweet spot</strong>: the audience position where the 3D illusion is strongest. Needs to be plotted from venue dimensions and screen geometry.</li>
-              <li><strong>UV pass / screen format</strong>: a flat export that looks distorted but corrects when projected onto the curved screen and viewed from the sweet spot. Similar to Ocean Outdoor's DeepScreen workflow for Piccadilly Lights.</li>
-              <li><strong>VR validation</strong>: test forced perspective in VR before the event to verify the illusion works at the correct viewing angle.</li>
-            </ul>
-            <h3>Reference</h3>
-            <ul>
-              <li><a href="https://www.youtube.com/watch?v=-fpobu4hv0o" target="_blank" rel="noopener noreferrer">MasterChef curved-screen setup (YouTube)</a> - at 0:45, shows the distorted flat export that corrects on screen</li>
-              <li><a href="https://blenderartists.org/t/how-to-render-3d-anamorphic-movie-on-curved-screen-or-fake-3d-image/1300925/3" target="_blank" rel="noopener noreferrer">Blender Artists: anamorphic rendering on curved screens</a></li>
-            </ul>
-          </div>
-        </article>
+      <nav class="toc" aria-label="On this page">
+        {contents.map(([id, label]) => <a href={`#${id}`}>{label}</a>)}
+      </nav>
 
-        <article class="doc-section animate-in" style="--delay: 0.4s">
-          <h2 class="section-label">Screen Setup</h2>
-          <div class="doc-content">
-            <p>Dharan Expo, Hall 1. Screen dimensions are based on previous IKTVA screen specs (exact specs TBC from staging team). Screen length is adjustable.</p>
-            <h3>What we need from the staging team</h3>
-            <ul>
-              <li>Final screen panel dimensions and curvature radius</li>
-              <li>Screen resolution per panel</li>
-              <li>Projector positions and throw distances</li>
-              <li>Audience seating layout (for sweet-spot calculation)</li>
-              <li>Media server specs and accepted delivery formats</li>
-            </ul>
-            <h3>Laser integration</h3>
-            <p>External laser supplier recommended over Saudi-based options. Kit import under the local entity is the preferred route. Being coordinated with Soul TPHQ.</p>
-          </div>
-        </article>
+      <article class="kb-section kb-prose" id="forced-perspective">
+        <h2>Forced perspective / anamorphic 3D</h2>
+        <p>
+          The event film uses forced perspective across a curved LED wall. Viewed from a designated sweet spot in the
+          audience, flat content on the wall appears to extend into real three-dimensional space.
+        </p>
+        <ul>
+          <li><strong>Sweet spot</strong>: the audience position where the illusion is strongest, plotted from venue and screen geometry.</li>
+          <li><strong>Flat file / UV pass</strong>: a render that looks distorted on a monitor but corrects when played on the curved wall and seen from the sweet spot. Similar to Ocean Outdoor's DeepScreen workflow for Piccadilly Lights.</li>
+          <li><strong>VR validation</strong>: test the illusion in VR before the event to check it works from the right viewing angle.</li>
+        </ul>
+        <p>
+          References: <a href="https://www.youtube.com/watch?v=-fpobu4hv0o" target="_blank" rel="noopener noreferrer">MasterChef curved-screen setup</a>
+          (at 0:45, the distorted flat export that corrects on screen) and
+          <a href="https://blenderartists.org/t/how-to-render-3d-anamorphic-movie-on-curved-screen-or-fake-3d-image/1300925/3" target="_blank" rel="noopener noreferrer">Blender Artists: anamorphic rendering on curved screens</a>.
+        </p>
+      </article>
 
-        <article class="doc-section animate-in" style="--delay: 0.5s">
-          <h2 class="section-label">Rendering Pipeline</h2>
-          <div class="doc-content">
-            <p>Animation built in Cinema 4D. The rendering pipeline needs to output both standard preview renders and the UV-mapped screen format for the final delivery.</p>
-            <h3>Pipeline steps</h3>
-            <ol>
-              <li>Model the event space at scale (Hall 1 mock-up)</li>
-              <li>Animate content in standard camera view</li>
-              <li>Apply UV pass to remap animation onto the screen geometry</li>
-              <li>Export distorted flat video for each screen panel</li>
-              <li>Test in VR or on-site with projection</li>
-            </ol>
-            <h3>File naming</h3>
-            <p>TBC. Establish a convention before the team starts producing final renders.</p>
-          </div>
-        </article>
+      <section class="kb-section" id="scene-setup">
+        <h2>Scene setup standard</h2>
+        <p class="kb-lede">Every scene uses these settings. If yours differ, renders will not line up with everyone else's.</p>
+        <table class="kb-table">
+          <tbody>
+            {specRows(sceneSetup).map((s) => (
+              <tr>
+                <td>{s.label}</td>
+                <td>{s.value}{s.tbc && <span class="kb-tbc">TBC</span>}{s.note && <span class="kb-note">{s.note}</span>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
 
-        <article class="doc-section animate-in" style="--delay: 0.6s">
-          <h2 class="section-label">Code and Scripts</h2>
-          <div class="doc-content">
-            <p>Reusable scripts and tools live in the <code>scripts/</code> directory of this repo. Add Cinema 4D scripts, Python utilities, and render automation here.</p>
-            <p class="hint">To add a script: commit it to the <code>scripts/</code> folder and document its purpose in a comment at the top of the file.</p>
-          </div>
-        </article>
-      </div>
+      <section class="kb-section" id="render-passes">
+        <h2>Render passes</h2>
+        <p class="kb-lede">
+          The master scene has one Take per pass. Animate once in 3D, then render the passes in order. Because the
+          screen mapping is a separate pass, the LED spec can change without re-animating.
+        </p>
+        <table class="kb-table">
+          <tbody>
+            {renderPasses.map((s) => (
+              <tr>
+                <td>{s.label}</td>
+                <td>{s.value}{s.note && <span class="kb-note">{s.note}</span>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+
+      <section class="kb-section" id="led-wall">
+        <h2>LED wall</h2>
+        <p class="kb-lede">{ledWallNote}</p>
+        <table class="kb-table">
+          <tbody>
+            {ledWall.map((s) => (
+              <tr>
+                <td>{s.label}</td>
+                <td>{s.value}{s.tbc && <span class="kb-tbc">TBC</span>}{s.note && <span class="kb-note">{s.note}</span>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <div class="kb-prose staging">
+          <h3>Still needed from the staging team</h3>
+          <ul>
+            <li>Final LED dimensions, corner radius and pixel pitch</li>
+            <li>Pixel map and processor layout</li>
+            <li>Audience seating layout, for the sweet spot and test seats</li>
+            <li>Media server spec and accepted delivery formats</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="kb-section" id="cameras">
+        <h2>Cameras &amp; sweet spot</h2>
+        <p class="kb-lede">{sweetSpotNote}</p>
+        <table class="kb-table">
+          <tbody>
+            {cameras.map((s) => (
+              <tr>
+                <td>{s.label}</td>
+                <td>{s.value}{s.note && <span class="kb-note">{s.note}</span>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+
+      <section class="kb-section" id="naming">
+        <h2>Naming &amp; folders <span class="kb-tbc">Draft</span></h2>
+        <p class="kb-lede">{namingNote}</p>
+        <table class="kb-table">
+          <thead><tr><th scope="col">Rule</th><th scope="col">Example</th></tr></thead>
+          <tbody>
+            {namingRules.map((r) => (
+              <tr><td class="rule">{r.rule}</td><td class="kb-mono">{r.example}</td></tr>
+            ))}
+          </tbody>
+        </table>
+        <h3 class="sub">Folder layout on U:\…\02. Animation\04. 3D</h3>
+        <pre class="kb-pre">{folderLayout}</pre>
+      </section>
+
+      <section class="kb-section" id="delivery">
+        <h2>Delivery spec</h2>
+        <p class="kb-lede">What goes to the media server. Mostly waiting on the staging team.</p>
+        <table class="kb-table">
+          <tbody>
+            {deliverySpec.map((s) => (
+              <tr>
+                <td>{s.label}</td>
+                <td>{s.value}{s.tbc && <span class="kb-tbc">TBC</span>}{s.note && <span class="kb-note">{s.note}</span>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <h3 class="sub">Before every delivery</h3>
+        <ul class="kb-list">
+          {deliveryChecklist.map((c) => <li>{c}</li>)}
+        </ul>
+      </section>
+
+      <section class="kb-section" id="gotchas">
+        <h2>Known issues &amp; gotchas</h2>
+        <p class="kb-lede">Things that have caught someone out. Add to this list whenever something breaks and you find the fix.</p>
+        <table class="kb-table">
+          <tbody>
+            {gotchas.map((g) => (
+              <tr><td>{g.issue}</td><td>{g.detail}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+
+      <section class="kb-section kb-prose" id="scripts">
+        <h2>Scripts</h2>
+        <p>
+          Reusable scripts (Cinema 4D, Python, render automation) live in <code>public/assets/scripts/</code> in this
+          repo and are listed on the <a href={`${base}assets/`}>Assets page</a> as category "Scripts". Put a comment at the
+          top of each script explaining what it does and how to run it, and add an entry in <code>src/content/assets.ts</code>.
+        </p>
+        <p>
+          The file tracker that builds the Timeline is in <code>tracker/</code> (see <code>tracker/README.md</code>).
+        </p>
+      </section>
+
+      <section class="kb-section" id="glossary">
+        <h2>Glossary</h2>
+        <table class="kb-table">
+          <tbody>
+            {glossary.map((g) => (
+              <tr><td>{g.term}</td><td>{g.meaning}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
     </div>
   </section>
 </Base>
 
 <style>
-  .tech-page {
-    min-height: 100vh;
-    padding-top: calc(var(--header-height) + var(--space-xl));
-  }
-
-  .page-title {
-    font-size: clamp(2rem, 5vw, 3.5rem);
-  }
-
-  .page-desc {
-    color: var(--color-fg-muted);
-    margin-top: var(--space-xs);
-    max-width: 600px;
-    line-height: 1.5;
-  }
-
-  .doc-sections {
-    margin-top: var(--space-lg);
+  .toc {
     display: flex;
-    flex-direction: column;
-    gap: var(--space-lg);
-  }
-
-  .section-label {
-    font-size: 0.6875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    color: var(--color-fg-muted);
-    font-weight: 600;
-    padding-bottom: var(--space-xs);
+    flex-wrap: wrap;
+    gap: 0.375rem 1rem;
+    font-size: 0.8125rem;
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-sm);
     border-bottom: 1px solid var(--color-border);
   }
 
-  .doc-content {
-    margin-top: var(--space-sm);
-    font-size: 0.9375rem;
-    line-height: 1.7;
-    max-width: 680px;
-  }
-
-  .doc-content p {
-    margin-bottom: var(--space-sm);
-  }
-
-  .doc-content h3 {
-    font-size: 0.9375rem;
-    font-weight: 600;
-    margin-top: var(--space-md);
-    margin-bottom: var(--space-xs);
-  }
-
-  .doc-content ul, .doc-content ol {
-    padding-left: 1.25rem;
-    margin-bottom: var(--space-sm);
-  }
-
-  .doc-content li {
-    margin-bottom: 0.5rem;
-    line-height: 1.6;
-  }
-
-  .doc-content a {
-    color: var(--color-accent);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
-  .doc-content code {
-    font-family: var(--font-mono);
-    font-size: 0.8125rem;
-    background: var(--color-bg-muted);
-    padding: 0.125rem 0.375rem;
-    border-radius: 3px;
-  }
-
-  .hint {
-    font-size: 0.8125rem;
+  .toc a {
     color: var(--color-fg-muted);
-    padding: var(--space-sm);
-    background: var(--color-bg-muted);
-    border-radius: 4px;
-    border-left: 3px solid var(--color-accent);
+  }
+
+  .toc a:hover {
+    color: var(--color-accent);
+  }
+
+  .kb-section {
+    scroll-margin-top: calc(var(--header-height) + 1rem);
+  }
+
+  .staging {
+    margin-top: var(--space-sm);
+  }
+
+  .sub {
+    margin: var(--space-sm) 0 0.5rem;
+  }
+
+  .rule {
+    font-weight: 400 !important;
   }
 </style>

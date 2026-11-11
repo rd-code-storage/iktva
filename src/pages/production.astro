@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import { milestones, reviews, laser, venue, brand } from '../content/production';
+import { ukDate } from '../content/timeline';
+
+const outcomeLabel = { approved: 'Approved', changes: 'Changes requested', info: 'For info' } as const;
+---
+
+<Base title="Production | IKTVA 2027" description="Schedule, reviews, laser, venue and brand information.">
+  <section class="kb-page">
+    <div class="container">
+      <h1 class="kb-title animate-in" style="--delay: 0.1s">Production</h1>
+      <p class="kb-desc animate-in" style="--delay: 0.2s">
+        Schedule, review history and the information we depend on from other teams.
+        Anything marked <span class="kb-tbc">TBC</span> is still waiting on someone.
+      </p>
+
+      <div class="kb-section" id="schedule">
+        <h2>Schedule &amp; milestones</h2>
+        <table class="kb-table">
+          <thead><tr><th scope="col">Milestone</th><th scope="col">Date</th><th scope="col">Status</th></tr></thead>
+          <tbody>
+            {milestones.map((m) => (
+              <tr>
+                <td>{m.title}{m.tbc && <span class="kb-tbc">TBC</span>}{m.note && <span class="kb-note">{m.note}</span>}</td>
+                <td class="kb-mono">{m.date ? ukDate(m.date) : '-'}</td>
+                <td><span class={`kb-pill ms-${m.status}`}>{m.status === 'done' ? 'Done' : m.status === 'next' ? 'In progress' : 'Planned'}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="kb-section" id="reviews">
+        <h2>Review &amp; approval log</h2>
+        <p class="kb-lede">
+          Every time work is shown to the director, producer or client: what was shown, the feedback, and the outcome.
+          This is the record to point to when someone asks "which version was approved?".
+        </p>
+        {reviews.length === 0 ? (
+          <p class="kb-note-empty">No reviews logged yet. Add them in <span class="kb-mono">src/content/production.ts</span>, or ask Claude to log one.</p>
+        ) : (
+          <table class="kb-table">
+            <thead><tr><th scope="col">Version shown</th><th scope="col">Date</th><th scope="col">Shown to</th><th scope="col">Outcome</th></tr></thead>
+            <tbody>
+              {reviews.map((r) => (
+                <tr>
+                  <td>{r.version}<span class="kb-note">{r.feedback}</span></td>
+                  <td class="kb-mono">{ukDate(r.date)}</td>
+                  <td>{r.shownTo}</td>
+                  <td><span class={`kb-pill rv-${r.outcome}`}>{outcomeLabel[r.outcome]}</span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </div>
+
+      <div class="kb-grid">
+        <div class="kb-section" id="laser">
+          <h2>Laser integration</h2>
+          <table class="kb-table">
+            <tbody>
+              {laser.map((l) => (
+                <tr><td>{l.label}</td><td>{l.value}{l.tbc && <span class="kb-tbc">TBC</span>}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="kb-section" id="venue">
+          <h2>Venue pack</h2>
+          <table class="kb-table">
+            <tbody>
+              {venue.map((v) => (
+                <tr><td>{v.label}</td><td>{v.value}{v.tbc && <span class="kb-tbc">TBC</span>}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="kb-section" id="brand">
+        <h2>Brand pack</h2>
+        <table class="kb-table">
+          <tbody>
+            {brand.map((b) => (
+              <tr><td>{b.label}</td><td>{b.value}{b.tbc && <span class="kb-tbc">TBC</span>}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .ms-done, .rv-approved { color: #16a34a; border-color: currentColor; }
+  .ms-next { color: var(--color-accent); border-color: currentColor; }
+  .rv-changes { color: #dc2626; border-color: currentColor; }
+  .kb-note-empty { color: var(--color-fg-muted); font-size: 0.875rem; }
+</style>

@@ -10,6 +10,32 @@ Large files (3D models, full renders, video) live on Google Drive: https://drive
 
 Files under ~50MB can go directly in the repo under public/assets/.
 
+The project's working 3D files are on the network drive, not in this repo:
+`U:\Projects\2482-3-iktva-pitches - Off the Scale\02. Animation\04. 3D`. When someone refers to a 3D file by name, look for it there. If it isn't there, or several files match, ask them to confirm which file they mean before using it.
+
+## Answering "what's happened / what do I need to know / what's left?"
+
+New team members will ask questions like these. Answer from the records in this repo, not from memory, and say where each answer came from:
+
+1. **`STATUS.md`**: current phase, what you need to know now, decisions, open questions and what's left to do. Read it first.
+2. **`src/content/timeline.json`**: automatic file activity in the 3D folder (renders, new versions, saves), newest first, with who did it. `src/content/summaries.json` has daily summaries.
+3. **`git log`**: changes to this repo (who changed what and when). Commits with a `Tracked-By:` trailer are automatic tracker commits.
+4. **`src/content/shots.ts`**: every shot or task, its owner and status. **`src/content/production.ts`**: schedule, review log, laser, venue, brand, onboarding. **`src/content/pipeline.ts`**: scene setup, render passes, LED wall, cameras, naming, delivery, known issues.
+5. **`src/content/project.ts`**: team, links and project updates.
+
+Give a short answer first: what has happened, what to watch out for, what's next. Then point to the site pages (Start here, Timeline, Shots, Technical, Production). Flag anything marked TBC or dated more than a week ago as possibly out of date.
+
+## Keeping the knowledge base current
+
+When you help with this project, keep these up to date in the same commit as the work:
+
+- **`STATUS.md`**: update "What you need to know right now", "Decisions" (with date and reason), "Open questions" and "What's left to do" whenever they change. Keep the "Last updated" line current.
+- **Shots** (`src/content/shots.ts`): status and owner. Latest version and last activity are filled in automatically from the timeline using each shot's `match` pattern.
+- **Reviews** (`reviews` in `src/content/production.ts`): log every time work is shown to the director, producer or client, newest first.
+- **Known issues** (`gotchas` in `src/content/pipeline.ts`): add anything that broke, and the fix.
+- **TBC values**: when a TBC is confirmed, set the value and remove `tbc: true`.
+- **Never edit `src/content/timeline.json` or `tracker/manifest.json` by hand.** The tracker owns them.
+
 ## Tech stack
 
 - Astro 5.x, static site generation
@@ -20,18 +46,32 @@ Files under ~50MB can go directly in the repo under public/assets/.
 ## Project structure
 
 ```
+STATUS.md              # Current status, decisions, open questions, what's left (shown on Start here)
+tracker/               # 3D folder scanner (see tracker/README.md)
 src/
   content/
     assets.ts          # Asset catalog (all downloadable files, references, models)
     project.ts         # Project info, team, updates, screen specs, key links
+    shots.ts           # Shot / task list with owner and status
+    production.ts      # Milestones, review log, laser, venue, brand, onboarding
+    pipeline.ts        # Scene setup, render passes, LED wall, cameras, naming, delivery, gotchas, glossary
+    timeline.json      # AUTOMATIC: file events from the 3D folder (do not edit)
+    timeline.ts        # Loads timeline.json + summaries.json, date helpers
+    summaries.json     # Daily summaries written by the scheduled Claude task
+    credits.ts         # Credit corrections for early commits (Changes page)
   layouts/
     Base.astro         # Site layout with nav header and global styles
   pages/
     index.astro        # Homepage: hero, specs, links, latest 3 updates
+    start.astro        # Start here: STATUS.md, latest activity, onboarding
+    timeline.astro     # Timeline: file activity + project updates, by day
+    shots.astro        # Shots: status table
+    production.astro   # Schedule, reviews, laser, venue, brand
+    technical.astro    # Pipeline standards (from pipeline.ts)
     assets.astro       # Assets page: filterable grid of all assets
-    updates.astro      # Timeline: all project updates, newest first
-    technical.astro    # Technical production info
+    updates.astro      # Project updates only (also shown on Timeline)
     team.astro         # Team members and roles
+    changes.astro      # Every commit and who made it
 public/
   assets/
     scripts/           # Python, C4D, Blender scripts

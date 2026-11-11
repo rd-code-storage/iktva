@@ -1,0 +1,186 @@
+---
+import Base from '../layouts/Base.astro';
+import { Content as Status } from '../../STATUS.md';
+import { onboarding } from '../content/production';
+import { allEvents, stamp, ukDate, kindLabels, timelineUpdatedAt } from '../content/timeline';
+import { project } from '../content/project';
+
+const base = import.meta.env.BASE_URL;
+const recent = allEvents.filter((e) => e.kind !== 'info').slice(0, 8);
+
+const pages = [
+  { href: 'timeline/', title: 'Timeline', text: 'Everything that has happened, day by day.' },
+  { href: 'shots/', title: 'Shots', text: 'Every shot and task, its owner, status and latest version.' },
+  { href: 'technical/', title: 'Technical', text: 'Scene setup, render passes, LED wall, cameras, naming, delivery.' },
+  { href: 'production/', title: 'Production', text: 'Schedule, review log, laser, venue and brand.' },
+  { href: 'assets/', title: 'Assets', text: 'Scripts, references, models and documents to download.' },
+  { href: 'team/', title: 'Team', text: 'Who is who.' },
+];
+---
+
+<Base title="Start here | IKTVA 2027" description="New to the project? What has happened, what you need to know, and what is left to do.">
+  <section class="kb-page">
+    <div class="container">
+      <h1 class="kb-title animate-in" style="--delay: 0.1s">Start here</h1>
+      <p class="kb-desc animate-in" style="--delay: 0.2s">
+        New to <strong>{project.title}</strong> ({project.client}, {project.venue})? This page covers what has
+        happened, what you need to know right now and what is left to do. Read it first, then the
+        Technical page.
+      </p>
+
+      <div class="layout">
+        <div class="kb-prose status">
+          <Status />
+        </div>
+
+        <aside class="side">
+          <div class="kb-card">
+            <h3>Latest activity</h3>
+            <ol class="recent">
+              {recent.map((e) => (
+                <li>
+                  <span class="kb-mono when">{e.kind === 'note' ? ukDate(e.date.slice(0, 10)) : stamp(e.date)}</span>
+                  <span class="what">{e.title}</span>
+                  <span class="who">{e.kind === 'note' ? kindLabels.note : e.by}{e.detail && e.kind !== 'note' ? ` · ${e.detail}` : ''}</span>
+                </li>
+              ))}
+            </ol>
+            <a href={`${base}timeline/`} class="more">Full timeline →</a>
+            {timelineUpdatedAt && <p class="checked">3D folder last checked {stamp(timelineUpdatedAt)}</p>}
+          </div>
+
+          <div class="kb-card">
+            <h3>Ask Claude</h3>
+            <p class="small">
+              Open this repo in Claude Code and ask, for example, <em>"What's happened on this project so far,
+              anything I need to know right now, and what's left to do?"</em> Claude answers from this status,
+              the timeline and the change history.
+            </p>
+          </div>
+        </aside>
+      </div>
+
+      <div class="kb-section">
+        <h2>First-day checklist</h2>
+        <table class="kb-table">
+          <tbody>
+            {onboarding.map((o) => (
+              <tr><td>{o.item}</td><td>{o.detail}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="kb-section">
+        <h2>Find your way around</h2>
+        <div class="kb-grid pages">
+          {pages.map((p) => (
+            <a href={`${base}${p.href}`} class="kb-card page-card">
+              <h3>{p.title}</h3>
+              <p class="small">{p.text}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+
+  .status :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+    margin-bottom: 1rem;
+  }
+
+  .status :global(th),
+  .status :global(td) {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .status :global(input[type='checkbox']) {
+    margin-right: 0.375rem;
+  }
+
+  .status :global(li:has(> input)) {
+    list-style: none;
+    margin-left: -1.25rem;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .recent {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .recent li {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8125rem;
+    min-width: 0;
+  }
+
+  .when {
+    font-size: 0.6875rem;
+    color: var(--color-fg-muted);
+  }
+
+  .what {
+    font-weight: 600;
+    overflow-wrap: anywhere;
+  }
+
+  .who {
+    color: var(--color-fg-muted);
+    font-size: 0.75rem;
+  }
+
+  .more {
+    font-size: 0.8125rem;
+    color: var(--color-accent);
+  }
+
+  .checked {
+    font-size: 0.6875rem;
+    color: var(--color-fg-muted);
+    margin-top: 0.5rem;
+  }
+
+  .small {
+    font-size: 0.8125rem;
+    color: var(--color-fg-muted);
+  }
+
+  .page-card {
+    display: block;
+  }
+
+  .page-card:hover {
+    border-color: var(--color-fg-muted);
+  }
+
+  @media (max-width: 900px) {
+    .layout {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

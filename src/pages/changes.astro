@@ -25,8 +25,11 @@ interface Change {
   subject: string;
   body: string;
   withClaude: boolean;
+  automatic: boolean;
   files: FileChange[];
 }
+
+const AUTO_AUTHOR = '3D folder tracker';
 
 const statusLabels: Record<string, string> = {
   A: 'Added',
@@ -65,15 +68,18 @@ try {
 
       const isClaudeAuthor = author.trim().toLowerCase() === 'claude';
       const credited = creditOverrides[hash];
+      // Commits made by the 3D folder scanner carry a "Tracked-By:" trailer.
+      const automatic = /^tracked-by:/im.test(body);
       return {
         hash,
         short: hash.slice(0, 7),
-        author: credited ?? author.trim(),
+        author: automatic ? AUTO_AUTHOR : (credited ?? author.trim()),
+        automatic,
         date,
         subject: subject.trim(),
         body: body
           .split('\n')
-          .filter((l) => !/^co-authored-by:/i.test(l.trim()))
+          .filter((l) => !/^(co-authored-by|tracked-by):/i.test(l.trim()))
           .join('\n')
           .trim(),
         withClaude:
@@ -114,6 +120,8 @@ function assetUrl(path: string): string | null {
         This list is generated from the
         <a href={`${REPO_URL}/commits/main`} class="inline-link">GitHub history</a> on each deploy,
         so it can't drift from what actually happened. Times are UK time.
+        Automatic updates from the 3D folder tracker are hidden by default: what they record is on the
+        <a href={`${import.meta.env.BASE_URL}timeline/`} class="inline-link">Timeline</a>.
       </p>
 
       {historyError ? (
@@ -122,18 +130,24 @@ function assetUrl(path: string): string | null {
         <>
           <div class="filters animate-in" style="--delay: 0.25s" role="group" aria-label="Filter changes by person">
             <button class="filter active" data-author="all" aria-pressed="true">
-              All <span class="count">{changes.length}</span>
+              All <span class="count">{changes.filter((c) => !c.automatic).length}</span>
             </button>
-            {authors.map((name) => (
+            {authors.filter((name) => name !== AUTO_AUTHOR).map((name) => (
               <button class="filter" data-author={name} aria-pressed="false">
                 {name} <span class="count">{countFor(name)}</span>
               </button>
             ))}
           </div>
+          {changes.some((c) => c.automatic) && (
+            <label class="auto-toggle">
+              <input type="checkbox" id="show-auto" />
+              Show automatic tracker updates ({countFor(AUTO_AUTHOR)})
+            </label>
+          )}
 
           <ol class="change-list">
             {changes.map((c) => (
-              <li class="change" data-author={c.author}>
+              <li class="change" data-author={c.author} data-auto={c.automatic ? '1' : undefined} hidden={c.automatic}>
                 <div class="change-dot"></div>
                 <div class="change-meta">
                   <span class="change-author">{c.author}</span>
@@ -362,20 +376,35 @@ function assetUrl(path: string): string | null {
   a.file-path:hover {
     color: var(--color-accent);
   }
+
+  .auto-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--color-fg-muted);
+    margin: calc(-1 * var(--space-sm)) 0 var(--space-md);
+    cursor: pointer;
+  }
 </style>
 
 <script>
   const buttons = document.querySelectorAll<HTMLButtonElement>('.filter');
   const items = document.querySelectorAll<HTMLElement>('.change');
+  const autoToggle = document.querySelector<HTMLInputElement>('#show-auto');
+  let current = 'all';
 
   function apply(author: string) {
+    current = author;
+    const showAuto = autoToggle?.checked ?? false;
     buttons.forEach((b) => {
       const on = b.dataset.author === author;
       b.classList.toggle('active', on);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
     items.forEach((item) => {
-      item.hidden = author !== 'all' && item.dataset.author !== author;
+      const isAuto = item.dataset.auto === '1';
+      item.hidden = isAuto ? !showAuto : author !== 'all' && item.dataset.author !== author;
     });
     const url = new URL(window.location.href);
     if (author === 'all') url.searchParams.delete('by');
@@ -384,6 +413,7 @@ function assetUrl(path: string): string | null {
   }
 
   buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.author ?? 'all')));
+  autoToggle?.addEventListener('change', () => apply(current));
 
   const initial = new URLSearchParams(window.location.search).get('by');
   if (initial && [...buttons].some((b) => b.dataset.author === initial)) apply(initial);
