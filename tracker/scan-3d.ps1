@@ -1,7 +1,8 @@
 <#
-  IKTVA 3D folder tracker
-  -----------------------
-  Scans the project's 3D folder on the U: drive, compares it with the last
+  IKTVA animation folder tracker
+  ------------------------------
+  Scans the project's 02. Animation folder on the U: drive (After Effects,
+  Illustrator, Photoshop, 3D, Assets, Exports), compares it with the last
   snapshot (tracker/manifest.json) and records what changed as readable events
   in src/content/timeline.json, which the site's Timeline page shows.
 
@@ -19,7 +20,7 @@
   (see tracker/README.md). Run with -NoGit to test without committing.
 #>
 param(
-  [string]$Root = 'U:\Projects\2482-3-iktva-pitches - Off the Scale\02. Animation\04. 3D',
+  [string]$Root = 'U:\Projects\2482-3-iktva-pitches - Off the Scale\02. Animation',
   [switch]$NoGit,
   [int]$MergeHours = 12,
   [int]$MaxEvents = 3000
@@ -74,6 +75,8 @@ function ConvertTo-Hashtable($obj) {
 $SeqRx  = '^(?<dir>(?:.*\\)?)(?<base>[^\\]*?[_.\-])(?<num>\d{3,6})\.(?<ext>png|exr|jpe?g|tiff?|dpx|tga|psd)$'
 $VerRx  = '^(?<stem>.*?)[_ \-]?[vV](?<v>\d{1,4})(?<rest>(?:[_ \-].*)?)$'
 $SkipRx = '^(~|\.)|^(Thumbs\.db|desktop\.ini)$|\.(tmp|lock|bak)$'
+# Folders that only hold automatic saves or caches (matched anywhere in the path)
+$SkipDirRx = '(^|\\)(Adobe After Effects Auto-Save|Adobe Premiere Pro Auto-Save|Auto-Save|Autosave|backup|backups|Media Cache|Media Cache Files|Cache|illum|Adobe Premiere Pro Preview Files)(\\|$)'
 
 function Get-Category([string]$ext, [bool]$seq) {
   if ($seq) { return 'render' }
@@ -84,6 +87,8 @@ function Get-Category([string]$ext, [bool]$seq) {
     '^(mp4|mov|avi|mxf|webm|m4v)$'                { return 'video' }
     '^(aep|prproj|drp|nk)$'                       { return 'edit' }
     '^(jsx|py|js|ps1|mel|vex|lua)$'               { return 'script' }
+    '^(ai|eps|svg)$'                              { return 'image' }
+    '^(wav|mp3|aif|aiff|m4a)$'                    { return 'audio' }
     '^(pdf|docx?|xlsx?|pptx?|txt|md|csv)$'        { return 'document' }
     default                                       { return 'other' }
   }
@@ -154,7 +159,7 @@ try {
   }
 
   if (-not (Test-Path -LiteralPath $Root)) {
-    Write-Log "3D folder not reachable ($Root). Is the U: drive connected? Skipping."
+    Write-Log "Animation folder not reachable ($Root). Is the U: drive connected? Skipping."
     exit 0
   }
 
@@ -174,6 +179,34 @@ try {
     foreach ($e in $timelineObj.events) { [void]$events.Add((ConvertTo-Hashtable $e)) }
   }
 
+  # If the tracked folder moved up a level (e.g. from 02. Animation\04. 3D to
+  # 02. Animation), re-base the snapshot and earlier events so existing files
+  # are not reported as new. Files only in the wider folder are backfilled.
+  $migratedFrom = $null
+  if (-not $isBaseline -and $manifestObj.root -and [string]$manifestObj.root -ne $Root) {
+    $oldRoot = [string]$manifestObj.root
+    if ($oldRoot.StartsWith($Root + '\', [System.StringComparison]::OrdinalIgnoreCase)) {
+      $sub = $oldRoot.Substring($Root.Length + 1)
+      $migratedFrom = $sub
+      $nf = @{}; foreach ($k in $oldFiles.Keys) { $nf["$sub\$k"] = $oldFiles[$k] }; $oldFiles = $nf
+      $no = @{}; foreach ($k in $owners.Keys) { $no["$sub\$k"] = $owners[$k] }; $owners = $no
+      foreach ($e in $events) {
+        if ($e.kind -eq 'info' -or -not $e.key) { continue }
+        $e.key = "$sub\$($e.key)"
+        $e.path = if ($e.path) { "$sub\$($e.path)" } else { $sub }
+      }
+      Write-Log "Tracked folder widened to $Root; re-based $($oldFiles.Count) files from '$sub'."
+    } else {
+      Write-Log "Tracked folder changed from $oldRoot to $Root; starting a new baseline."
+      $isBaseline = $true; $oldFiles = @{}; $owners = @{}
+    }
+  }
+  function Test-Backfill([string]$k) {
+    if ($isBaseline) { return $true }
+    if ($migratedFrom) { return -not $k.StartsWith("$migratedFrom\", [System.StringComparison]::OrdinalIgnoreCase) }
+    return $false
+  }
+
   # Scan the folder
   $nowUtc = [DateTime]::UtcNow
   $curFiles = @{}; $curMeta = @{}
@@ -181,6 +214,7 @@ try {
     Where-Object { $_.Name -notmatch $SkipRx -and -not ($_.Attributes -band [System.IO.FileAttributes]::Hidden) }
   foreach ($f in $items) {
     $rel = $f.FullName.Substring($Root.Length).TrimStart('\')
+    if ([System.IO.Path]::GetDirectoryName($rel) -match $SkipDirRx) { continue }
     $curFiles[$rel] = @([long]$f.Length, $f.LastWriteTimeUtc.ToString('o'))
     $curMeta[$rel] = $f
   }
@@ -235,7 +269,7 @@ try {
     $ev = [ordered]@{
       id = New-EventId; date = $date; kind = ''; category = $cat; title = ''; detail = ''
       path = $info.Dir; name = $info.Name; key = $key; by = $by; count = 1; size = $size; saves = 1
-      backfill = $isBaseline
+      backfill = (Test-Backfill $key)
     }
 
     if ($info.Seq) {
@@ -269,7 +303,7 @@ try {
 
     # Merge with a recent event for the same thing instead of adding noise
     $merged = $false
-    if (-not $isBaseline -and ($ev.kind -eq 'render' -or $ev.kind -eq 'updated')) {
+    if (-not $ev.backfill -and ($ev.kind -eq 'render' -or $ev.kind -eq 'updated')) {
       foreach ($old in $events) {
         if ($old.key -ne $key) { continue }
         $oldKindOk = ($old.kind -eq $ev.kind) -or ($ev.kind -eq 'updated' -and ($old.kind -eq 'added' -or $old.kind -eq 'version'))
@@ -282,7 +316,7 @@ try {
           } else {
             $old.title = $ev.title; $old.detail = $ev.detail; $old.count = $ev.count
           }
-          $old.date = $ev.date; $old.size = $ev.size; $old.by = $ev.by
+          $old.date = $ev.date; $old.size = $ev.size; $old.by = $ev.by; $old.backfill = $false
           $merged = $true; break
         }
       }
@@ -291,31 +325,40 @@ try {
     $touched++
   }
 
-  if ($touched -eq 0) { Write-Log 'No changes.'; exit 0 }
+  if ($touched -eq 0 -and -not $migratedFrom) { Write-Log 'No changes.'; exit 0 }
 
   # Collapse many single images added to one folder in the same scan
   $imageAdds = @($newEvents | Where-Object { $_.kind -eq 'added' -and $_.category -eq 'image' })
   foreach ($grp in ($imageAdds | Group-Object { $_.path })) {
     if ($grp.Count -lt 4) { continue }
     $first = $grp.Group | Sort-Object { $_.date } -Descending | Select-Object -First 1
-    $folder = if ($grp.Name) { Split-Path -Leaf $grp.Name } else { '04. 3D' }
+    $folder = if ($grp.Name) { Split-Path -Leaf $grp.Name } else { (Split-Path -Leaf $Root) }
     $groupSize = [long]0
     foreach ($e in $grp.Group) { $groupSize += [long]$e.size }
     $summary = [ordered]@{
       id = New-EventId; date = $first.date; kind = 'added'; category = 'image'
       title = "Added $($grp.Count) images to $folder"; detail = (($grp.Group | Select-Object -First 4 | ForEach-Object { $_.name }) -join ', ') + ' ...'
       path = $grp.Name; name = $folder; key = "$($grp.Name)\*"; by = $first.by; count = $grp.Count
-      size = $groupSize; saves = 1; backfill = $isBaseline
+      size = $groupSize; saves = 1; backfill = [bool]$first.backfill
     }
     foreach ($e in $grp.Group) { $newEvents.Remove($e) }
     [void]$newEvents.Add($summary)
+  }
+
+  if ($migratedFrom) {
+    [void]$newEvents.Add([ordered]@{
+      id = New-EventId; date = $nowUtc.ToString('o'); kind = 'info'; category = 'other'
+      title = "Tracking widened to $(Split-Path -Leaf $Root)"
+      detail = "Now tracking all of $(Split-Path -Leaf $Root) ($($curFiles.Count) files), not just $migratedFrom. Entries for files outside $migratedFrom from before today are dated by when each file was last modified."
+      path = ''; name = ''; key = '__widened__'; by = 'Tracker'; count = $curFiles.Count; size = 0; saves = 1; backfill = $false
+    })
   }
 
   if ($isBaseline) {
     [void]$newEvents.Add([ordered]@{
       id = New-EventId; date = $nowUtc.ToString('o'); kind = 'info'; category = 'other'
       title = 'File tracking started'
-      detail = "$($curFiles.Count) files already in the 3D folder. Earlier entries are dated by when each file was last modified."
+      detail = "$($curFiles.Count) files already in the tracked folder. Earlier entries are dated by when each file was last modified."
       path = ''; name = ''; key = '__start__'; by = 'Tracker'; count = $curFiles.Count; size = 0; saves = 1; backfill = $false
     })
   }
@@ -331,7 +374,7 @@ try {
   $ownersOut = [ordered]@{}
   foreach ($k in ($owners.Keys | Sort-Object)) { $ownersOut[$k] = $owners[$k] }
   Write-Json $ManifestPath ([ordered]@{ root = $Root; scannedAt = $nowUtc.ToString('o'); fileCount = $curFiles.Count; files = $filesOut; owners = $ownersOut })
-  Write-Json $TimelinePath ([ordered]@{ updatedAt = $nowUtc.ToString('o'); root = '04. 3D'; events = $list })
+  Write-Json $TimelinePath ([ordered]@{ updatedAt = $nowUtc.ToString('o'); root = (Split-Path -Leaf $Root); events = $list })
 
   $titles = @($newEvents | Sort-Object { [string]$_.date } -Descending | ForEach-Object { $_.title })
   if ($titles.Count -eq 0) { $titles = @('Updated existing timeline entries') }
@@ -339,11 +382,11 @@ try {
 
   if ($NoGit) { exit 0 }
 
-  $subject = if ($isBaseline) { 'Tracker: start tracking the 3D folder' } else { "Tracker: $($titles[0])" + $(if ($titles.Count -gt 1) { " (+$($titles.Count - 1) more)" } else { '' }) }
+  $subject = if ($isBaseline) { 'Tracker: start tracking the animation folder' } else { "Tracker: $($titles[0])" + $(if ($titles.Count -gt 1) { " (+$($titles.Count - 1) more)" } else { '' }) }
   if ($subject.Length -gt 100) { $subject = $subject.Substring(0, 97) + '...' }
   $body = ($titles | Select-Object -First 30 | ForEach-Object { "- $_" }) -join "`n"
   $msgFile = Join-Path $env:TEMP 'iktva-tracker-commit.txt'
-  [System.IO.File]::WriteAllText($msgFile, "$subject`n`n$body`n`nTracked-By: 3D folder scanner`n", $Utf8NoBom)
+  [System.IO.File]::WriteAllText($msgFile, "$subject`n`n$body`n`nTracked-By: animation folder scanner`n", $Utf8NoBom)
 
   Invoke-Git add -- tracker/manifest.json src/content/timeline.json | Out-Null
   Invoke-Git commit -q -F $msgFile -- tracker/manifest.json src/content/timeline.json | Out-Null

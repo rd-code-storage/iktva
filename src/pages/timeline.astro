@@ -31,8 +31,9 @@ const typeOf = (kind: string, category: string) =>
     <div class="container">
       <h1 class="kb-title animate-in" style="--delay: 0.1s">Timeline</h1>
       <p class="kb-desc animate-in" style="--delay: 0.2s">
-        Everything that has happened on the project, day by day. File activity in the 3D folder
-        (<span class="kb-mono">U:\…\02. Animation\04. 3D</span>) is recorded automatically, and project
+        Everything that has happened on the project, day by day. File activity in the animation folder
+        (<span class="kb-mono">U:\…\02. Animation</span>: After Effects, Illustrator, Photoshop, 3D, Assets and Exports)
+        is recorded automatically, and project
         updates are added by the team. Changes to this site itself are on the <a href={`${import.meta.env.BASE_URL}changes/`}>Changes</a> page.
         {timelineUpdatedAt && <> Files last checked {stamp(timelineUpdatedAt)} (UK time).</>}
       </p>

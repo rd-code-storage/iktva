@@ -65,7 +65,7 @@ export const brand: { label: string; value: string; tbc?: boolean }[] = [
 ];
 
 export const onboarding: { item: string; detail: string }[] = [
-  { item: 'U: drive access', detail: 'U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation\\04. 3D (ask IT)' },
+  { item: 'U: drive access', detail: 'U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation (3D work is in 04. 3D; ask IT)' },
   { item: 'Google Drive', detail: 'Animation Files folder (link on the Overview page)' },
   { item: 'Slack', detail: 'Project channel (link on the Overview page)' },
   { item: 'GitHub', detail: 'Read access to rd-code-storage/iktva; write access if you will update this site' },

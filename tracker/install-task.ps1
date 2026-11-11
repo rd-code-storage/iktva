@@ -1,5 +1,5 @@
 <#
-  Sets up the automatic 3D folder tracker on this PC.
+  Sets up the automatic animation folder tracker on this PC.
 
   1. Makes a dedicated clone of the repo for the tracker (default: next to this
      repo, named "iktva-auto-tracker"). The tracker resets that clone to GitHub's
@@ -51,7 +51,7 @@ $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances 
 $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType Interactive -RunLevel Limited
 
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger @($repeat, $logon) -Settings $settings -Principal $principal `
-  -Description 'Scans the IKTVA 3D folder on U: and pushes file activity to the project timeline (rd-code-storage/iktva). See tracker/README.md.' -Force | Out-Null
+  -Description 'Scans the IKTVA 02. Animation folder on U: and pushes file activity to the project timeline (rd-code-storage/iktva). See tracker/README.md.' -Force | Out-Null
 
 Write-Host "Scheduled task '$TaskName' registered: every $EveryMinutes minutes and at log-on."
 Write-Host "Tracker clone: $TrackerClone"

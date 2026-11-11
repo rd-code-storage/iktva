@@ -1,8 +1,8 @@
 // Shot and task list, shown on the Shots page.
 //
 // status: where the shot is now. owner: who is doing it.
-// match: a regular expression tested against file paths in the 3D folder
-//        (as they appear on the Timeline, e.g. 'Event Space\\Test\\renders\\GrandHall_TEST\\...').
+// match: a regular expression tested against file paths in the animation folder
+//        (as they appear on the Timeline, e.g. '04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\...').
 //        The Shots page uses it to show the latest version and last activity automatically.
 //
 // Draft set up on 2026-11-11 from the files in the 3D folder. The real shot list

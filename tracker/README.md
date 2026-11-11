@@ -1,8 +1,12 @@
-# 3D folder tracker
+# Animation folder tracker
 
-Keeps the site's **Timeline** up to date with what happens in the project's 3D folder:
+Keeps the site's **Timeline** up to date with what happens in the project's animation folder:
 
-`U:\Projects\2482-3-iktva-pitches - Off the Scale\02. Animation\04. 3D`
+`U:\Projects\2482-3-iktva-pitches - Off the Scale\02. Animation`
+
+This covers 01. After Effects, 02. Illustrator, 03. Photoshop, 04. 3D, 05. Assets and 06. Exports. Auto-save, backup and cache folders are skipped.
+
+The script is still called `scan-3d.ps1`, and the Windows task is still named "IKTVA 3D folder tracker", because they started out tracking only `04. 3D`. Older timeline entries were re-based with a `04. 3D\` prefix when the folder was widened on 11/11/2026.
 
 ## How it works
 

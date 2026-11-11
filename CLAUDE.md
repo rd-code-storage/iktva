@@ -18,7 +18,7 @@ The project's working 3D files are on the network drive, not in this repo:
 New team members will ask questions like these. Answer from the records in this repo, not from memory, and say where each answer came from:
 
 1. **`STATUS.md`**: current phase, what you need to know now, decisions, open questions and what's left to do. Read it first.
-2. **`src/content/timeline.json`**: automatic file activity in the 3D folder (renders, new versions, saves), newest first, with who did it. `src/content/summaries.json` has daily summaries.
+2. **`src/content/timeline.json`**: automatic file activity in the 02. Animation folder on U: (After Effects, 3D, assets, exports: renders, new versions, saves), newest first, with who did it. `src/content/summaries.json` has daily summaries.
 3. **`git log`**: changes to this repo (who changed what and when). Commits with a `Tracked-By:` trailer are automatic tracker commits.
 4. **`src/content/shots.ts`**: every shot or task, its owner and status. **`src/content/production.ts`**: schedule, review log, laser, venue, brand, onboarding. **`src/content/pipeline.ts`**: scene setup, render passes, LED wall, cameras, naming, delivery, known issues.
 5. **`src/content/project.ts`**: team, links and project updates.
@@ -47,7 +47,7 @@ When you help with this project, keep these up to date in the same commit as the
 
 ```
 STATUS.md              # Current status, decisions, open questions, what's left (shown on Start here)
-tracker/               # 3D folder scanner (see tracker/README.md)
+tracker/               # Animation folder scanner (see tracker/README.md)
 src/
   content/
     assets.ts          # Asset catalog (all downloadable files, references, models)
@@ -55,7 +55,7 @@ src/
     shots.ts           # Shot / task list with owner and status
     production.ts      # Milestones, review log, laser, venue, brand, onboarding
     pipeline.ts        # Scene setup, render passes, LED wall, cameras, naming, delivery, gotchas, glossary
-    timeline.json      # AUTOMATIC: file events from the 3D folder (do not edit)
+    timeline.json      # AUTOMATIC: file events from the animation folder (do not edit)
     timeline.ts        # Loads timeline.json + summaries.json, date helpers
     summaries.json     # Daily summaries written by the scheduled Claude task
     credits.ts         # Credit corrections for early commits (Changes page)

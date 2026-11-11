@@ -29,7 +29,7 @@ interface Change {
   files: FileChange[];
 }
 
-const AUTO_AUTHOR = '3D folder tracker';
+const AUTO_AUTHOR = 'Animation folder tracker';
 
 const statusLabels: Record<string, string> = {
   A: 'Added',
@@ -68,7 +68,7 @@ try {
 
       const isClaudeAuthor = author.trim().toLowerCase() === 'claude';
       const credited = creditOverrides[hash];
-      // Commits made by the 3D folder scanner carry a "Tracked-By:" trailer.
+      // Commits made by the animation folder scanner carry a "Tracked-By:" trailer.
       const automatic = /^tracked-by:/im.test(body);
       return {
         hash,
@@ -120,7 +120,7 @@ function assetUrl(path: string): string | null {
         This list is generated from the
         <a href={`${REPO_URL}/commits/main`} class="inline-link">GitHub history</a> on each deploy,
         so it can't drift from what actually happened. Times are UK time.
-        Automatic updates from the 3D folder tracker are hidden by default: what they record is on the
+        Automatic updates from the animation folder tracker are hidden by default: what they record is on the
         <a href={`${import.meta.env.BASE_URL}timeline/`} class="inline-link">Timeline</a>.
       </p>
 
