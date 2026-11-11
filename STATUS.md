@@ -28,7 +28,7 @@ A robot arm test is being used to prove the illusion. Room previews V01 to V05 w
 | Date | Decision | Why |
 |---|---|---|
 | 10/11/2026 | Three-pass workflow: EYE, then DELIVER, then ROOM PREVIEW | Separates the 3D content from the LED mapping, so the screen spec can change without re-animating. |
-| 11/11/2026 | DELIVER (flat file) pass renders with the Standard renderer; EYE and ROOM PREVIEW stay on Redshift | The flat file only re-maps the EYE render onto the pixel map, so Redshift's compute adds nothing. Master file's DELIVER setting still needs switching to Standard. |
+| 11/11/2026 | DELIVER (flat file) pass renders with the Standard renderer; EYE and ROOM PREVIEW stay on Redshift | The flat file only re-maps the EYE render onto the pixel map, so Redshift's compute adds nothing. Master file (Iktva Grand Hall_V01.c4d) switched to Standard and saved the same day. |
 | 10/11/2026 | 30 fps, Redshift, 1 unit = 1 cm | Team standard for all scenes. |
 | 10/11/2026 | Large files on Google Drive, under 50 MB in the repo | Keeps the repo usable. |
 

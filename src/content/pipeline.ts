@@ -125,8 +125,8 @@ export const gotchas: { issue: string; detail: string }[] = [
     detail: 'EYE A is at 1.20 m in Iktva Grand Hall_V01.c4d but 1.66 m in the _TEST_RobotArm file. Renders from the two files will not line up. Agree one sweet-spot height.',
   },
   {
-    issue: 'Master file DELIVER render setting is on Redshift; it should be Standard',
-    detail: 'Agreed 11/11/2026: the DELIVER pass renders with Standard. The robot-arm test file already does. "RD - 2 DELIVER flat file (Standard)" in Iktva Grand Hall_V01.c4d is still set to Redshift: switch its renderer to Standard.',
+    issue: 'DELIVER must render with Standard (fixed 11/11/2026)',
+    detail: 'The DELIVER render setting was on Redshift in Iktva Grand Hall_V01.c4d. It was switched to Standard and saved on 11/11/2026, so it now matches the robot-arm test file. If you copy render settings between scenes, check DELIVER is still on Standard.',
   },
   {
     issue: 'Two venue blockouts exist',
