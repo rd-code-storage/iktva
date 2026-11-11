@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "date": "2026-11-11",
+    "summary": "Alex Gorcik took the robot arm test room previews from V02 to V05, rendered v5 of the pitch film sequence, and saved a new test scene, Iktva Grand Hall_V01_TEST_RobotArm.c4d. In the master scene the DELIVER flat file pass was switched from Redshift to the Standard renderer, and that decision is now in STATUS.md. With the tracker now covering all of 02. Animation, it also picked up Alex starting Event Space Mock-ups_v01 in After Effects and adding Gen AI welder reference images for views 1 to 4. Worth checking: the robot arm test is in its own file, so its EYE A height and DELIVER scale still differ from the master and it should not be delivered from as it is."
+  }
+]
