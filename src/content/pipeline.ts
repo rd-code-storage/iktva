@@ -28,8 +28,8 @@ export const renderPasses: Spec[] = [
   },
   {
     label: '2  DELIVER (flat file)',
-    value: '33883 x 3000 px (full LED pixel map)',
-    note: 'The EYE render unrolled onto the LED pixel map. This is what plays on the wall. Use DELIVER scale 0.1 on the LED WALL object for quick tests (3388 x 300). Output: renders/<shot>/2_FLAT_FILE/',
+    value: '33883 x 3000 px (full LED pixel map), Standard renderer',
+    note: 'The EYE render unrolled onto the LED pixel map. This is what plays on the wall. Rendered with the Standard renderer: it only re-maps the EYE render, so Redshift adds nothing. Check that the flat file colours match the EYE render (no extra colour transform). Use DELIVER scale 0.1 on the LED WALL object for quick tests (3388 x 300). Output: renders/<shot>/2_FLAT_FILE/',
   },
   {
     label: '3  ROOM PREVIEW',
@@ -125,8 +125,8 @@ export const gotchas: { issue: string; detail: string }[] = [
     detail: 'EYE A is at 1.20 m in Iktva Grand Hall_V01.c4d but 1.66 m in the _TEST_RobotArm file. Renders from the two files will not line up. Agree one sweet-spot height.',
   },
   {
-    issue: 'DELIVER take says "Standard" but uses Redshift in the master file',
-    detail: 'The DELIVER render setting is labelled Standard. It uses Standard in the robot-arm test but Redshift in Iktva Grand Hall_V01.c4d. Pick one so flat files match.',
+    issue: 'Master file DELIVER render setting is on Redshift; it should be Standard',
+    detail: 'Agreed 11/11/2026: the DELIVER pass renders with Standard. The robot-arm test file already does. "RD - 2 DELIVER flat file (Standard)" in Iktva Grand Hall_V01.c4d is still set to Redshift: switch its renderer to Standard.',
   },
   {
     issue: 'Two venue blockouts exist',
