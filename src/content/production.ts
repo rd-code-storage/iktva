@@ -71,6 +71,7 @@ export const onboarding: { item: string; detail: string }[] = [
   { item: 'GitHub', detail: 'Read access to rd-code-storage/iktva; write access if you will update this site' },
   { item: 'Cinema 4D 2027 + Redshift', detail: 'Same versions as the team, see Technical > Scene setup' },
   { item: 'Read first', detail: 'Start here, then Technical (pipeline, cameras, naming), then the Timeline' },
+  { item: 'Ask Claude', detail: 'Paste the prompt from the Start here page into a Claude chat: it reads the one-page project brief (brief.txt)' },
   { item: 'Open the master scene', detail: 'Iktva Grand Hall_V01.c4d. Save your own copy as a new version before changing anything' },
   { item: 'Who to ask', detail: '3D / pipeline: Alex Gorcik. Production: Benjamin Raymond, Bella Servidio. Creative: Ryan, Will Jarvis. Full list on the Team page' },
 ];

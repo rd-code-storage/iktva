@@ -6,6 +6,8 @@ import { allEvents, stamp, ukDate, kindLabels, timelineUpdatedAt } from '../cont
 import { project } from '../content/project';
 
 const base = import.meta.env.BASE_URL;
+const briefPrompt =
+  "Read https://rd-code-storage.github.io/iktva/brief.txt and answer from it: what's happened on this project so far, anything I need to know right now, and what's left to do?";
 const recent = allEvents.filter((e) => e.kind !== 'info').slice(0, 8);
 
 const pages = [
@@ -52,9 +54,14 @@ const pages = [
           <div class="kb-card">
             <h3>Ask Claude</h3>
             <p class="small">
-              Open this repo in Claude Code and ask, for example, <em>"What's happened on this project so far,
-              anything I need to know right now, and what's left to do?"</em> Claude answers from this status,
-              the timeline and the change history.
+              In any Claude chat (claude.ai or the Claude app, with web search on), paste this and ask your question:
+            </p>
+            <pre class="prompt" id="claude-prompt">{briefPrompt}</pre>
+            <button class="copy" type="button" data-copy="claude-prompt">Copy prompt</button>
+            <p class="small">
+              The <a href={`${base}brief.txt`} class="more">project brief</a> holds the status, shots, schedule,
+              TBCs and the last 14 days of activity on one page. It updates every time the site does.
+              Working in the repo with Claude Code? Just ask: it reads the same records.
             </p>
           </div>
         </aside>
@@ -170,6 +177,35 @@ const pages = [
     color: var(--color-fg-muted);
   }
 
+  .prompt {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    background: var(--color-bg-muted);
+    padding: 0.625rem;
+    margin: 0.5rem 0;
+  }
+
+  .copy {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid var(--color-border);
+    background: none;
+    color: var(--color-fg);
+    cursor: pointer;
+    margin-bottom: 0.75rem;
+  }
+
+  .copy:hover {
+    border-color: var(--color-fg-muted);
+  }
+
   .page-card {
     display: block;
   }
@@ -184,3 +220,24 @@ const pages = [
     }
   }
 </style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.copy').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const el = document.getElementById(btn.dataset.copy ?? '');
+      if (!el) return;
+      try {
+        await navigator.clipboard.writeText(el.textContent ?? '');
+        btn.textContent = 'Copied';
+      } catch {
+        const range = document.createRange();
+        range.selectNodeContents(el);
+        const sel = window.getSelection();
+        sel?.removeAllRanges();
+        sel?.addRange(range);
+        btn.textContent = 'Press Ctrl+C';
+      }
+      setTimeout(() => (btn.textContent = 'Copy prompt'), 2000);
+    });
+  });
+</script>

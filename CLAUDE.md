@@ -23,6 +23,8 @@ New team members will ask questions like these. Answer from the records in this 
 4. **`src/content/shots.ts`**: every shot or task, its owner and status. **`src/content/production.ts`**: schedule, review log, laser, venue, brand, onboarding. **`src/content/pipeline.ts`**: scene setup, render passes, LED wall, cameras, naming, delivery, known issues.
 5. **`src/content/project.ts`**: team, links and project updates.
 
+The same records are combined into one plain-text page, `src/pages/brief.txt.ts`, published at https://rd-code-storage.github.io/iktva/brief.txt. Newcomers without the repo paste that URL into a Claude chat (the prompt is on the Start here page). If you add a new kind of record, add it to the brief too.
+
 Give a short answer first: what has happened, what to watch out for, what's next. Then point to the site pages (Start here, Timeline, Shots, Technical, Production). Flag anything marked TBC or dated more than a week ago as possibly out of date.
 
 ## Keeping the knowledge base current
