@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-11T16:48:50.5727602Z",
-    "fileCount":  1130,
+    "scannedAt":  "2026-11-11T17:18:50.5988423Z",
+    "fileCount":  1131,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -4471,6 +4471,10 @@
                                                                                       6192011,
                                                                                       "2026-11-11T16:22:55.9507540Z"
                                                                                   ],
+                  "05. Assets\\Gen AI Refernces\\Welder\\View 4\\View_4_01.png":  [
+                                                                                      5482102,
+                                                                                      "2026-11-11T17:02:08.1650123Z"
+                                                                                  ],
                   "05. Assets\\Scripts\\2482 - IKTVA 2027 Event Film - Off the Scale_Script_v03.docx":  [
                                                                                                             21755,
                                                                                                             "2026-11-11T11:56:32.2246290Z"
@@ -4598,6 +4602,7 @@
                    "05. Assets\\Gen AI Refernces\\Welder\\View 2\\View_2_02.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 3\\View_3_01.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 3\\View_3_02.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Welder\\View 4\\View_4_01.png":  "Alex Gorcik",
                    "05. Assets\\Scripts\\2482 - IKTVA 2027 Event Film - Off the Scale_Script_v03.docx":  "Alex Gorcik",
                    "05. Assets\\Test shots\\IMG_4110.MOV":  "Alex Gorcik",
                    "05. Assets\\Test shots\\IMG_4111.MOV":  "Alex Gorcik",
