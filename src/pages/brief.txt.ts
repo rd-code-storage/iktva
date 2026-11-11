@@ -14,6 +14,7 @@ import { fileEvents, summaries, timelineUpdatedAt, dayKey, timeOf, stamp, ukDate
 
 const SITE = 'https://rd-code-storage.github.io/iktva/';
 const DAYS = 14;
+const PER_DAY = 12;
 
 function recentCommits(sinceIso: string): string[] {
   try {
@@ -53,6 +54,8 @@ export const GET: APIRoute = () => {
     '- Answer from this file only. Say when something is marked TBC (not confirmed) or when a record looks older than a week.',
     '- Give a short answer first, then point to the site pages listed at the end for detail.',
     '- File activity is recorded automatically from the U: drive (file info only, never contents). Names are the Windows owner of each file.',
+    '- All dates are UK format, DD/MM/YYYY. "Draft" or "TBC" means not yet confirmed by the team.',
+    '- Sections run from most to least important: status first, raw activity log near the end.',
   );
 
   h('Project');
@@ -77,7 +80,7 @@ export const GET: APIRoute = () => {
     const last = related.reduce<(typeof related)[number] | undefined>((a, e) => (!a || e.date > a.date ? e : a), undefined);
     const v = latestVersion(related);
     L.push(
-      `- [${s.status}] ${s.id}: ${s.name}. Owner: ${s.owner}.${v ? ` Latest version: ${v}.` : ''}${
+      `- [${s.status}] ${s.id}: ${s.name}. Owner: ${s.owner}.${v ? ` Highest version number in its files (renders or scenes): ${v}.` : ''}${
         last ? ` Last activity: ${stamp(last.date)} (${last.title}).` : ''
       }`,
       `  ${s.description}${s.notes ? ` Note: ${s.notes}` : ''}`,
@@ -93,7 +96,9 @@ export const GET: APIRoute = () => {
   if (reviews.length === 0) L.push('- No reviews logged yet.');
   for (const r of reviews) L.push(`- ${ukDate(r.date)}: ${r.version}, shown to ${r.shownTo}. Outcome: ${r.outcome}. ${r.feedback}`);
 
-  h(`Last ${DAYS} days of activity`);
+  // Raw activity goes near the end (see pushActivity call below)
+  const pushActivity = () => {
+  h(`Last ${DAYS} days of activity (most recent ${PER_DAY} entries per day)`);
   const recent = fileEvents.filter((e) => e.date >= sinceIso && e.kind !== 'info');
   const byDay = new Map<string, typeof recent>();
   for (const e of recent) {
@@ -114,16 +119,17 @@ export const GET: APIRoute = () => {
     if (summaryByDay.has(d)) L.push(`  Summary: ${summaryByDay.get(d)}`);
     for (const u of updatesByDay.get(d) ?? []) L.push(`  - Project update. ${u}`);
     const evs = byDay.get(d) ?? [];
-    const shown = evs.slice(0, 25);
+    const shown = evs.slice(0, PER_DAY);
     for (const e of shown) {
-      L.push(`  - ${timeOf(e.date)} ${e.by}: ${e.title}${e.detail ? ` (${e.detail})` : ''}${e.path ? ` [${e.path}]` : ''}${e.backfill ? ' (dated by file modified time)' : ''}`);
+      L.push(`  - ${timeOf(e.date)} ${e.by}: ${e.title}${e.detail ? ` (${e.detail})` : ''}${e.path ? ` [${e.path}]` : ''}${e.backfill ? ' (time = file last modified)' : ''}`);
     }
     if (evs.length > shown.length) L.push(`  - ...and ${evs.length - shown.length} more (see Timeline page)`);
   }
 
   h(`Changes to the knowledge base, last ${DAYS} days`);
   const commits = recentCommits(sinceIso);
-  L.push(...(commits.length ? commits.slice(0, 40) : ['- None.']));
+  L.push(...(commits.length ? commits.slice(0, 25) : ['- None.']));
+  };
 
   h('Still to be confirmed (TBC)');
   const tbc = [
@@ -148,6 +154,8 @@ export const GET: APIRoute = () => {
 
   h('First-day checklist');
   L.push(...onboarding.map((o) => `- ${o.item}: ${o.detail}`));
+
+  pushActivity();
 
   h('Links');
   L.push(
