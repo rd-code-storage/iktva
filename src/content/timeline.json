@@ -1,7 +1,23 @@
 {
-    "updatedAt":  "2026-11-12T12:48:50.9851614Z",
+    "updatedAt":  "2026-11-12T15:18:51.2592990Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "f789f497ae38",
+                       "date":  "2026-11-12T15:07:47.2144421Z",
+                       "kind":  "added",
+                       "category":  "image",
+                       "title":  "Added Crane Mock-up area.psd",
+                       "detail":  "",
+                       "path":  "03. Photoshop",
+                       "name":  "Crane Mock-up area.psd",
+                       "key":  "03. Photoshop\\Crane Mock-up area.psd",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  628326,
+                       "saves":  1,
+                       "backfill":  false
+                   },
                    {
                        "id":  "473eb6c83567",
                        "date":  "2026-11-12T12:44:42.0655616Z",

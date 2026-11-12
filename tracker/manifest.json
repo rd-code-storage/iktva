@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-12T12:48:50.9851614Z",
-    "fileCount":  1132,
+    "scannedAt":  "2026-11-12T15:18:51.2592990Z",
+    "fileCount":  1133,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1231,6 +1231,10 @@
                                                                                      2793712,
                                                                                      "2026-08-19T07:53:10.3717550Z"
                                                                                  ],
+                  "03. Photoshop\\Crane Mock-up area.psd":  [
+                                                                628326,
+                                                                "2026-11-12T15:07:47.2144421Z"
+                                                            ],
                   "04. 3D\\Event Space\\Test\\AE\\IKTVA_Hall1_Build_AE_Template.jsx":  [
                                                                                            13773,
                                                                                            "2026-11-06T15:10:30.1904398Z"
@@ -4558,6 +4562,7 @@
                    "01. After Effects\\Pitch AE Files\\laser-cut-logo-reveal-2026-08-11-05-10-55-utc\\01_Laser_Cut_Logo_Reveal\\Laser_Cut_Logo_Reveal.aep":  "Alex Gorcik",
                    "01. After Effects\\Pitch AE Files\\laser-streaks-logo-reveal-2026-08-11-05-12-16-utc.zip":  "Alex Gorcik",
                    "01. After Effects\\Pitch AE Files\\Shots for Pitch_V01.aep":  "Alex Gorcik",
+                   "03. Photoshop\\Crane Mock-up area.psd":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\AE\\IKTVA_Hall1_Build_AE_Template.jsx":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\assets\\mixamo\\X Bot.fbx":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Event Space_V01.c4d":  "Alex Gorcik",
