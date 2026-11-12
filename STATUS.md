@@ -57,5 +57,6 @@ A robot arm test is being used to prove the illusion. Room previews V01 to V05 w
 
 _The daily summary updates this section automatically. The full history is on the Timeline page._
 
+- 12/11/2026: Alex Gorcik set CAM EYE A in the robot arm test file to 1.20 m to match the master (now the agreed eye height for every scene) and added a crane Gen AI reference and Photoshop mock-up; no new robot arm previews since the camera change.
 - 11/11/2026: Alex Gorcik rendered robot arm previews V02 to V05 and pitch film v5, switched the master DELIVER pass to Standard, started AE event space mock-ups and added Gen AI welder references; tracker now covers all of 02. Animation.
 - 10/11/2026: Grand Hall master scene built; first EYE, flat file and preview renders.

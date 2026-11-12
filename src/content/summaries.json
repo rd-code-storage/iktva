@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-11-12",
+    "summary": "Alex Gorcik fixed the sweet-spot height in the robot arm test file: CAM EYE A in Iktva Grand Hall_V01_TEST_RobotArm.c4d is now at 1.20 m, matching the master, and 1.20 m is logged in STATUS.md as the eye height for every scene. Alex also started on crane material, adding a Gen AI reference image (Screen Image_Crane.png) and a Photoshop mock-up (Crane Mock-up area.psd). Worth checking: the robot arm test file still has DELIVER scale 0.1, so it should not be delivered from as it is, and no new robot arm previews were rendered after the camera change."
+  },
+  {
     "date": "2026-11-11",
     "summary": "Alex Gorcik took the robot arm test room previews from V02 to V05, rendered v5 of the pitch film sequence, and saved a new test scene, Iktva Grand Hall_V01_TEST_RobotArm.c4d. In the master scene the DELIVER flat file pass was switched from Redshift to the Standard renderer, and that decision is now in STATUS.md. With the tracker now covering all of 02. Animation, it also picked up Alex starting Event Space Mock-ups_v01 in After Effects and adding Gen AI welder reference images for views 1 to 4. Worth checking: the robot arm test is in its own file, so its EYE A height and DELIVER scale still differ from the master and it should not be delivered from as it is."
   }
