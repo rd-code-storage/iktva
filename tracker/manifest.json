@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-12T10:48:51.2488986Z",
-    "fileCount":  1131,
+    "scannedAt":  "2026-11-12T11:48:50.9325937Z",
+    "fileCount":  1132,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -4447,6 +4447,10 @@
                                                                 836207,
                                                                 "2026-11-04T13:16:41.6655349Z"
                                                             ],
+                  "05. Assets\\Gen AI Refernces\\Crane\\Screen Image_Crane.png":  [
+                                                                                      5369993,
+                                                                                      "2026-11-12T11:42:32.4404260Z"
+                                                                                  ],
                   "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v01.png":  [
                                                                                         5024877,
                                                                                         "2026-11-11T15:54:41.0905155Z"
@@ -4596,6 +4600,7 @@
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\Ref Exports\\10.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\Ref Exports\\11.png":  "Alex Gorcik",
                    "04. 3D\\Ref pics\\Ref for Chatgpt.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Crane\\Screen Image_Crane.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v01.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v02.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 2\\View_2_01.png":  "Alex Gorcik",

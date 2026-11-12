@@ -1,7 +1,23 @@
 {
-    "updatedAt":  "2026-11-12T10:48:51.2488986Z",
+    "updatedAt":  "2026-11-12T11:48:50.9325937Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "4ad7ed2d0f57",
+                       "date":  "2026-11-12T11:42:32.4404260Z",
+                       "kind":  "added",
+                       "category":  "image",
+                       "title":  "Added Screen Image_Crane.png",
+                       "detail":  "",
+                       "path":  "05. Assets\\Gen AI Refernces\\Crane",
+                       "name":  "Screen Image_Crane.png",
+                       "key":  "05. Assets\\Gen AI Refernces\\Crane\\Screen Image_Crane.png",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  5369993,
+                       "saves":  1,
+                       "backfill":  false
+                   },
                    {
                        "id":  "473eb6c83567",
                        "date":  "2026-11-12T10:25:19.7736781Z",
