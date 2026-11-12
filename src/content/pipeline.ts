@@ -121,12 +121,12 @@ export const gotchas: { issue: string; detail: string }[] = [
     detail: 'The LED WALL object has a DELIVER scale. 0.1 gives a quick 3388 x 300 test. The robot-arm test file is currently at 0.1.',
   },
   {
-    issue: 'CAM EYE A height differs between files',
-    detail: 'EYE A is at 1.20 m in Iktva Grand Hall_V01.c4d but 1.66 m in the _TEST_RobotArm file. Renders from the two files will not line up. Agree one sweet-spot height.',
+    issue: 'CAM EYE A height must match between files (fixed 12/11/2026)',
+    detail: 'EYE A was at 1.66 m in the _TEST_RobotArm file but 1.20 m in Iktva Grand Hall_V01.c4d, so renders would not line up. Both are now 1.20 m. When you make a new scene, check EYE A is at 1.20 m (Y = 120 cm).',
   },
   {
     issue: 'DELIVER must render with Standard (fixed 11/11/2026)',
-    detail: 'The DELIVER render setting was on Redshift in Iktva Grand Hall_V01.c4d. It was switched to Standard and saved on 11/11/2026, so it now matches the robot-arm test file. If you copy render settings between scenes, check DELIVER is still on Standard.',
+    detail: 'The DELIVER render setting was on Redshift in Iktva Grand Hall_V01.c4d. It was switched to Standard and saved on 11/11/2026. If you copy render settings between scenes, check DELIVER is still on Standard.',
   },
   {
     issue: 'Two venue blockouts exist',

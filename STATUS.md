@@ -1,6 +1,6 @@
 # Project status
 
-_Last updated 11/11/2026 by Alex Gorcik with Claude (DELIVER renderer decision). Draft set up from the 3D files: Alex to confirm._
+_Last updated 12/11/2026 by Alex Gorcik with Claude (EYE A height fixed at 1.20 m in the robot arm file). Draft set up from the 3D files: Alex to confirm._
 
 ## Where we are
 
@@ -19,7 +19,7 @@ A robot arm test is being used to prove the illusion. Room previews V01 to V05 w
 
 - **LED sizes are working values, not confirmed.** The staging team still has to confirm the size, curve, pixel pitch and pixel map. Change them only on the LED WALL object's User Data. See Technical > LED wall.
 - **The sweet spot is CAM EYE A.** It sits at seated eye height. Don't move it without agreement, because every render depends on it.
-- **The robot arm test file differs from the master in two ways.** EYE A is at 1.66 m instead of 1.20 m, and DELIVER scale is 0.1 (test size). Don't deliver from it as it is.
+- **The robot arm test file has DELIVER scale 0.1 (test size).** Don't deliver from it as it is. Its CAM EYE A now matches the master at 1.20 m (fixed 12/11/2026).
 - **There are two venue blockouts.** The Grand Hall file (54 x 91 m) is current. The older Event Space file (59.7 x 59.7 m) needs confirming or retiring.
 - **File naming.** Follow the draft convention on the Technical page. The automatic timeline uses it to recognise versions.
 
@@ -27,6 +27,7 @@ A robot arm test is being used to prove the illusion. Room previews V01 to V05 w
 
 | Date | Decision | Why |
 |---|---|---|
+| 12/11/2026 | Sweet spot (CAM EYE A) eye height is 1.20 m in every scene | One height so renders from different files line up. The robot arm test file was moved from 1.66 m to 1.20 m to match the master. |
 | 10/11/2026 | Three-pass workflow: EYE, then DELIVER, then ROOM PREVIEW | Separates the 3D content from the LED mapping, so the screen spec can change without re-animating. |
 | 11/11/2026 | DELIVER (flat file) pass renders with the Standard renderer; EYE and ROOM PREVIEW stay on Redshift | The flat file only re-maps the EYE render onto the pixel map, so Redshift's compute adds nothing. Master file (Iktva Grand Hall_V01.c4d) switched to Standard and saved the same day. |
 | 10/11/2026 | 30 fps, Redshift, 1 unit = 1 cm | Team standard for all scenes. |
