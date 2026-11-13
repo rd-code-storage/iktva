@@ -1,7 +1,23 @@
 {
-    "updatedAt":  "2026-11-13T10:18:50.4768323Z",
+    "updatedAt":  "2026-11-13T10:48:50.4838786Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "bcc81eaae482",
+                       "date":  "2026-11-13T10:38:35.7633857Z",
+                       "kind":  "added",
+                       "category":  "image",
+                       "title":  "Added Shot_01_V01.png",
+                       "detail":  "",
+                       "path":  "05. Assets\\Gen AI Refernces\\Shipworker\\Shot_01",
+                       "name":  "Shot_01_V01.png",
+                       "key":  "05. Assets\\Gen AI Refernces\\Shipworker\\Shot_01\\Shot_01_V01.png",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  6354709,
+                       "saves":  1,
+                       "backfill":  false
+                   },
                    {
                        "id":  "85a3f2f2fd03",
                        "date":  "2026-11-13T10:04:36.6148043Z",
