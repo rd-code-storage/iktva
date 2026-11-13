@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-11-13",
+    "summary": "Alex Gorcik spent the morning on Gen AI reference images, adding a first Shot_01 frame for each of four subjects: Crane, Scientist, Blacksmith and Shipworker. Alex also started a Photoshop mock-up for the robot arm (Robot arm mock-up.psd), following the crane mock-up from yesterday. No 3D files were saved and no new renders came out today, so the robot arm room previews are still at V05 and none have been rendered since the CAM EYE A height change on 12/11."
+  },
+  {
     "date": "2026-11-12",
     "summary": "Alex Gorcik fixed the sweet-spot height in the robot arm test file: CAM EYE A in Iktva Grand Hall_V01_TEST_RobotArm.c4d is now at 1.20 m, matching the master, and 1.20 m is logged in STATUS.md as the eye height for every scene. Alex also started on crane material, adding a Gen AI reference image (Screen Image_Crane.png) and a Photoshop mock-up (Crane Mock-up area.psd). Worth checking: the robot arm test file still has DELIVER scale 0.1, so it should not be delivered from as it is, and no new robot arm previews were rendered after the camera change."
   },
