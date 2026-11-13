@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-13T09:48:50.4449005Z",
-    "fileCount":  1135,
+    "scannedAt":  "2026-11-13T10:18:50.4768323Z",
+    "fileCount":  1136,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -4451,6 +4451,10 @@
                                                                 836207,
                                                                 "2026-11-04T13:16:41.6655349Z"
                                                             ],
+                  "05. Assets\\Gen AI Refernces\\Blacksmith\\Shot_01\\Shot_01_v01.png":  [
+                                                                                             6163837,
+                                                                                             "2026-11-13T10:04:36.6148043Z"
+                                                                                         ],
                   "05. Assets\\Gen AI Refernces\\Crane\\Screen Image_Crane.png":  [
                                                                                       5369993,
                                                                                       "2026-11-12T11:42:32.4404260Z"
@@ -4613,6 +4617,7 @@
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\Ref Exports\\10.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\Ref Exports\\11.png":  "Alex Gorcik",
                    "04. 3D\\Ref pics\\Ref for Chatgpt.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Blacksmith\\Shot_01\\Shot_01_v01.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Crane\\Screen Image_Crane.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Crane\\Shot_01\\hf_20261113_093846_aad3bc6e-bf7a-4432-9eb5-ca7af9f36588.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Scientist\\Shot_01\\shot_01_v01.png":  "Alex Gorcik",
