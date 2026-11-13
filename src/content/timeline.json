@@ -1,7 +1,23 @@
 {
-    "updatedAt":  "2026-11-13T10:48:50.4838786Z",
+    "updatedAt":  "2026-11-13T11:18:50.6012092Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "4937ee815845",
+                       "date":  "2026-11-13T10:49:20.3456580Z",
+                       "kind":  "added",
+                       "category":  "image",
+                       "title":  "Added Robot arm mock-up.psd",
+                       "detail":  "",
+                       "path":  "03. Photoshop",
+                       "name":  "Robot arm mock-up.psd",
+                       "key":  "03. Photoshop\\Robot arm mock-up.psd",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  629274,
+                       "saves":  1,
+                       "backfill":  false
+                   },
                    {
                        "id":  "bcc81eaae482",
                        "date":  "2026-11-13T10:38:35.7633857Z",

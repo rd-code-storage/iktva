@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-13T10:48:50.4838786Z",
-    "fileCount":  1137,
+    "scannedAt":  "2026-11-13T11:18:50.6012092Z",
+    "fileCount":  1138,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1235,6 +1235,10 @@
                                                                 628326,
                                                                 "2026-11-12T15:07:47.2144421Z"
                                                             ],
+                  "03. Photoshop\\Robot arm mock-up.psd":  [
+                                                               629274,
+                                                               "2026-11-13T10:49:20.3456580Z"
+                                                           ],
                   "04. 3D\\Event Space\\Test\\AE\\IKTVA_Hall1_Build_AE_Template.jsx":  [
                                                                                            13773,
                                                                                            "2026-11-06T15:10:30.1904398Z"
@@ -4579,6 +4583,7 @@
                    "01. After Effects\\Pitch AE Files\\laser-streaks-logo-reveal-2026-08-11-05-12-16-utc.zip":  "Alex Gorcik",
                    "01. After Effects\\Pitch AE Files\\Shots for Pitch_V01.aep":  "Alex Gorcik",
                    "03. Photoshop\\Crane Mock-up area.psd":  "Alex Gorcik",
+                   "03. Photoshop\\Robot arm mock-up.psd":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\AE\\IKTVA_Hall1_Build_AE_Template.jsx":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\assets\\mixamo\\X Bot.fbx":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Event Space_V01.c4d":  "Alex Gorcik",
