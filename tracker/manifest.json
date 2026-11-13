@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-12T15:18:51.2592990Z",
-    "fileCount":  1133,
+    "scannedAt":  "2026-11-13T09:48:50.4449005Z",
+    "fileCount":  1135,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -4455,6 +4455,14 @@
                                                                                       5369993,
                                                                                       "2026-11-12T11:42:32.4404260Z"
                                                                                   ],
+                  "05. Assets\\Gen AI Refernces\\Crane\\Shot_01\\hf_20261113_093846_aad3bc6e-bf7a-4432-9eb5-ca7af9f36588.png":  [
+                                                                                                                                    6432884,
+                                                                                                                                    "2026-11-13T09:40:51.2496665Z"
+                                                                                                                                ],
+                  "05. Assets\\Gen AI Refernces\\Scientist\\Shot_01\\shot_01_v01.png":  [
+                                                                                            6111002,
+                                                                                            "2026-11-13T09:44:36.1297211Z"
+                                                                                        ],
                   "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v01.png":  [
                                                                                         5024877,
                                                                                         "2026-11-11T15:54:41.0905155Z"
@@ -4606,6 +4614,8 @@
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\Ref Exports\\11.png":  "Alex Gorcik",
                    "04. 3D\\Ref pics\\Ref for Chatgpt.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Crane\\Screen Image_Crane.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Crane\\Shot_01\\hf_20261113_093846_aad3bc6e-bf7a-4432-9eb5-ca7af9f36588.png":  "Alex Gorcik",
+                   "05. Assets\\Gen AI Refernces\\Scientist\\Shot_01\\shot_01_v01.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v01.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 1\\View_01_v02.png":  "Alex Gorcik",
                    "05. Assets\\Gen AI Refernces\\Welder\\View 2\\View_2_01.png":  "Alex Gorcik",

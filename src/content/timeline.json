@@ -1,7 +1,39 @@
 {
-    "updatedAt":  "2026-11-12T15:18:51.2592990Z",
+    "updatedAt":  "2026-11-13T09:48:50.4449005Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "e7db57eb87c7",
+                       "date":  "2026-11-13T09:44:36.1297211Z",
+                       "kind":  "added",
+                       "category":  "image",
+                       "title":  "Added shot_01_v01.png",
+                       "detail":  "",
+                       "path":  "05. Assets\\Gen AI Refernces\\Scientist\\Shot_01",
+                       "name":  "shot_01_v01.png",
+                       "key":  "05. Assets\\Gen AI Refernces\\Scientist\\Shot_01\\shot_01_v01.png",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  6111002,
+                       "saves":  1,
+                       "backfill":  false
+                   },
+                   {
+                       "id":  "cd38c1fa2aba",
+                       "date":  "2026-11-13T09:40:51.2496665Z",
+                       "kind":  "added",
+                       "category":  "image",
+                       "title":  "Added hf_20261113_093846_aad3bc6e-bf7a-4432-9eb5-ca7af9f36588.png",
+                       "detail":  "",
+                       "path":  "05. Assets\\Gen AI Refernces\\Crane\\Shot_01",
+                       "name":  "hf_20261113_093846_aad3bc6e-bf7a-4432-9eb5-ca7af9f36588.png",
+                       "key":  "05. Assets\\Gen AI Refernces\\Crane\\Shot_01\\hf_20261113_093846_aad3bc6e-bf7a-4432-9eb5-ca7af9f36588.png",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  6432884,
+                       "saves":  1,
+                       "backfill":  false
+                   },
                    {
                        "id":  "f789f497ae38",
                        "date":  "2026-11-12T15:07:47.2144421Z",
