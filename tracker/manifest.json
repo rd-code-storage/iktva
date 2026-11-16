@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-13T11:18:50.6012092Z",
-    "fileCount":  1138,
+    "scannedAt":  "2026-11-16T15:48:51.3862765Z",
+    "fileCount":  1140,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1267,6 +1267,10 @@
                                                                                             182571450,
                                                                                             "2026-11-12T12:44:42.0655616Z"
                                                                                         ],
+                  "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V02_TEST_RobotArm.c4d":  [
+                                                                                            182904507,
+                                                                                            "2026-11-16T15:43:35.7004122Z"
+                                                                                        ],
                   "04. 3D\\Event Space\\Test\\IKTVA_CONTENT_RobotArm_anchor-relative_v01.c4d":  [
                                                                                                     56815823,
                                                                                                     "2026-11-10T10:46:17.0606606Z"
@@ -1275,6 +1279,10 @@
                                                                                                46932,
                                                                                                "2026-11-10T14:49:02.5904578Z"
                                                                                            ],
+                  "04. 3D\\Event Space\\Test\\maps\\GrandHall_LED_texture_check_R8m_H9.25m.png":  [
+                                                                                                      43996,
+                                                                                                      "2026-11-16T15:25:47.8834271Z"
+                                                                                                  ],
                   "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\FRONT_combined_2080x280.png":  [
                                                                                                                         542130,
                                                                                                                         "2026-11-05T15:24:33.6404281Z"
@@ -4591,8 +4599,10 @@
                    "04. 3D\\Event Space\\Test\\Iktva Event Space_V03.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01_TEST_RobotArm.c4d":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V02_TEST_RobotArm.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\IKTVA_CONTENT_RobotArm_anchor-relative_v01.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\maps\\GrandHall_LED_texture_check_R5m.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\maps\\GrandHall_LED_texture_check_R8m_H9.25m.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\FRONT_combined_2080x280.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\MAIN_1680x240.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\SIDE_L_160x280.png":  "Alex Gorcik",
