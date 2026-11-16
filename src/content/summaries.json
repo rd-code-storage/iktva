@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-11-16",
+    "summary": "Alex Gorcik moved the robot arm test scene on from V01 to V02 (Iktva Grand Hall_V02_TEST_RobotArm.c4d) and added an LED texture check image for an 8 m radius, 9.25 m high wall, the first work on that test file since 11/11. Nothing was rendered today, so the room previews are still at V05 and none of them show the V02 scene or the 1.20 m eye height fix. The LED sizes behind that texture check are still working values, as the staging team has not confirmed size, curve or pixel pitch, and the DELIVER scale 0.1 caveat on the test file is worth re-checking in V02 before anything is delivered from it."
+  },
+  {
     "date": "2026-11-13",
     "summary": "Alex Gorcik spent the morning on Gen AI reference images, adding a first Shot_01 frame for each of four subjects: Crane, Scientist, Blacksmith and Shipworker. Alex also started a Photoshop mock-up for the robot arm (Robot arm mock-up.psd), following the crane mock-up from yesterday. No 3D files were saved and no new renders came out today, so the robot arm room previews are still at V05 and none have been rendered since the CAM EYE A height change on 12/11."
   },
