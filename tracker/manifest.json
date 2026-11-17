@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-17T13:48:51.7764293Z",
-    "fileCount":  1141,
+    "scannedAt":  "2026-11-17T16:18:50.7291399Z",
+    "fileCount":  1260,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1243,6 +1243,478 @@
                                                                                            13773,
                                                                                            "2026-11-06T15:10:30.1904398Z"
                                                                                        ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\_ffmpeg_log.txt":  [
+                                                                                                     0,
+                                                                                                     "2026-11-17T16:11:02.0153893Z"
+                                                                                                 ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0000.jpg":  [
+                                                                                                       137779,
+                                                                                                       "2026-11-17T16:11:03.7093892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0001.jpg":  [
+                                                                                                       128387,
+                                                                                                       "2026-11-17T16:11:03.7123892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0002.jpg":  [
+                                                                                                       126445,
+                                                                                                       "2026-11-17T16:11:03.7193892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0003.jpg":  [
+                                                                                                       125138,
+                                                                                                       "2026-11-17T16:11:03.7273892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0004.jpg":  [
+                                                                                                       131580,
+                                                                                                       "2026-11-17T16:11:03.7463892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0005.jpg":  [
+                                                                                                       124955,
+                                                                                                       "2026-11-17T16:11:03.7533892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0006.jpg":  [
+                                                                                                       123741,
+                                                                                                       "2026-11-17T16:11:03.7553892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0007.jpg":  [
+                                                                                                       123449,
+                                                                                                       "2026-11-17T16:11:03.7573892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0008.jpg":  [
+                                                                                                       129873,
+                                                                                                       "2026-11-17T16:11:03.7633892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0009.jpg":  [
+                                                                                                       124118,
+                                                                                                       "2026-11-17T16:11:03.7693892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0010.jpg":  [
+                                                                                                       123913,
+                                                                                                       "2026-11-17T16:11:03.7713892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0011.jpg":  [
+                                                                                                       125071,
+                                                                                                       "2026-11-17T16:11:03.8313892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0012.jpg":  [
+                                                                                                       131955,
+                                                                                                       "2026-11-17T16:11:03.8593892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0013.jpg":  [
+                                                                                                       126833,
+                                                                                                       "2026-11-17T16:11:03.8743892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0014.jpg":  [
+                                                                                                       129865,
+                                                                                                       "2026-11-17T16:11:03.8783892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0015.jpg":  [
+                                                                                                       130366,
+                                                                                                       "2026-11-17T16:11:03.8813892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0016.jpg":  [
+                                                                                                       135939,
+                                                                                                       "2026-11-17T16:11:03.8833892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0017.jpg":  [
+                                                                                                       128486,
+                                                                                                       "2026-11-17T16:11:03.8853892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0018.jpg":  [
+                                                                                                       126275,
+                                                                                                       "2026-11-17T16:11:03.8883892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0019.jpg":  [
+                                                                                                       124584,
+                                                                                                       "2026-11-17T16:11:03.8913892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0020.jpg":  [
+                                                                                                       130393,
+                                                                                                       "2026-11-17T16:11:03.8943892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0021.jpg":  [
+                                                                                                       123350,
+                                                                                                       "2026-11-17T16:11:03.8973892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0022.jpg":  [
+                                                                                                       122211,
+                                                                                                       "2026-11-17T16:11:03.9033892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0023.jpg":  [
+                                                                                                       128791,
+                                                                                                       "2026-11-17T16:11:03.9043892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0024.jpg":  [
+                                                                                                       130620,
+                                                                                                       "2026-11-17T16:11:03.9063892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0025.jpg":  [
+                                                                                                       122387,
+                                                                                                       "2026-11-17T16:11:03.9383892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0026.jpg":  [
+                                                                                                       122650,
+                                                                                                       "2026-11-17T16:11:03.9663892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0027.jpg":  [
+                                                                                                       123742,
+                                                                                                       "2026-11-17T16:11:03.9713892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0028.jpg":  [
+                                                                                                       132278,
+                                                                                                       "2026-11-17T16:11:03.9743892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0029.jpg":  [
+                                                                                                       126182,
+                                                                                                       "2026-11-17T16:11:03.9773892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0030.jpg":  [
+                                                                                                       127483,
+                                                                                                       "2026-11-17T16:11:03.9803892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0031.jpg":  [
+                                                                                                       128718,
+                                                                                                       "2026-11-17T16:11:03.9833892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0032.jpg":  [
+                                                                                                       135155,
+                                                                                                       "2026-11-17T16:11:03.9843892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0033.jpg":  [
+                                                                                                       130358,
+                                                                                                       "2026-11-17T16:11:04.0023892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0034.jpg":  [
+                                                                                                       131274,
+                                                                                                       "2026-11-17T16:11:04.0063892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0035.jpg":  [
+                                                                                                       131635,
+                                                                                                       "2026-11-17T16:11:04.0133892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0036.jpg":  [
+                                                                                                       138221,
+                                                                                                       "2026-11-17T16:11:04.0263892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0037.jpg":  [
+                                                                                                       132651,
+                                                                                                       "2026-11-17T16:11:04.0293892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0038.jpg":  [
+                                                                                                       132617,
+                                                                                                       "2026-11-17T16:11:04.0343892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0039.jpg":  [
+                                                                                                       133994,
+                                                                                                       "2026-11-17T16:11:04.0363892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0040.jpg":  [
+                                                                                                       140644,
+                                                                                                       "2026-11-17T16:11:04.0373892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0041.jpg":  [
+                                                                                                       135370,
+                                                                                                       "2026-11-17T16:11:04.0393892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0042.jpg":  [
+                                                                                                       135894,
+                                                                                                       "2026-11-17T16:11:04.0813892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0043.jpg":  [
+                                                                                                       137009,
+                                                                                                       "2026-11-17T16:11:04.0843892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0044.jpg":  [
+                                                                                                       144275,
+                                                                                                       "2026-11-17T16:11:04.0873892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0045.jpg":  [
+                                                                                                       138306,
+                                                                                                       "2026-11-17T16:11:04.0903892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0046.jpg":  [
+                                                                                                       138639,
+                                                                                                       "2026-11-17T16:11:04.0953892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0047.jpg":  [
+                                                                                                       145286,
+                                                                                                       "2026-11-17T16:11:04.0993892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0048.jpg":  [
+                                                                                                       144858,
+                                                                                                       "2026-11-17T16:11:04.1013892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0049.jpg":  [
+                                                                                                       136734,
+                                                                                                       "2026-11-17T16:11:04.1033892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0050.jpg":  [
+                                                                                                       135555,
+                                                                                                       "2026-11-17T16:11:04.1213892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0051.jpg":  [
+                                                                                                       134700,
+                                                                                                       "2026-11-17T16:11:04.1263892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0052.jpg":  [
+                                                                                                       141370,
+                                                                                                       "2026-11-17T16:11:04.1303892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0053.jpg":  [
+                                                                                                       134123,
+                                                                                                       "2026-11-17T16:11:04.1333892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0054.jpg":  [
+                                                                                                       132425,
+                                                                                                       "2026-11-17T16:11:04.1363892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0055.jpg":  [
+                                                                                                       131249,
+                                                                                                       "2026-11-17T16:11:04.1383892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0056.jpg":  [
+                                                                                                       136711,
+                                                                                                       "2026-11-17T16:11:04.1413892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0057.jpg":  [
+                                                                                                       129140,
+                                                                                                       "2026-11-17T16:11:04.1803892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0058.jpg":  [
+                                                                                                       126856,
+                                                                                                       "2026-11-17T16:11:04.1843892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0059.jpg":  [
+                                                                                                       126333,
+                                                                                                       "2026-11-17T16:11:04.1863892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0060.jpg":  [
+                                                                                                       132496,
+                                                                                                       "2026-11-17T16:11:04.1893892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0061.jpg":  [
+                                                                                                       124927,
+                                                                                                       "2026-11-17T16:11:04.1913892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0062.jpg":  [
+                                                                                                       124852,
+                                                                                                       "2026-11-17T16:11:04.2093892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0063.jpg":  [
+                                                                                                       125765,
+                                                                                                       "2026-11-17T16:11:04.2133892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0064.jpg":  [
+                                                                                                       132057,
+                                                                                                       "2026-11-17T16:11:04.2153892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0065.jpg":  [
+                                                                                                       126514,
+                                                                                                       "2026-11-17T16:11:04.2173892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0066.jpg":  [
+                                                                                                       127308,
+                                                                                                       "2026-11-17T16:11:04.2293892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0067.jpg":  [
+                                                                                                       128904,
+                                                                                                       "2026-11-17T16:11:04.2313892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0068.jpg":  [
+                                                                                                       135115,
+                                                                                                       "2026-11-17T16:11:04.2393892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0069.jpg":  [
+                                                                                                       129474,
+                                                                                                       "2026-11-17T16:11:04.2443892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0070.jpg":  [
+                                                                                                       130251,
+                                                                                                       "2026-11-17T16:11:04.2473892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0071.jpg":  [
+                                                                                                       136526,
+                                                                                                       "2026-11-17T16:11:04.2483892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0072.jpg":  [
+                                                                                                       137813,
+                                                                                                       "2026-11-17T16:11:04.2503892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0073.jpg":  [
+                                                                                                       130337,
+                                                                                                       "2026-11-17T16:11:04.2663892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0074.jpg":  [
+                                                                                                       130625,
+                                                                                                       "2026-11-17T16:11:04.2963892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0075.jpg":  [
+                                                                                                       130494,
+                                                                                                       "2026-11-17T16:11:04.3003892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0076.jpg":  [
+                                                                                                       137226,
+                                                                                                       "2026-11-17T16:11:04.3023892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0077.jpg":  [
+                                                                                                       130195,
+                                                                                                       "2026-11-17T16:11:04.3043892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0078.jpg":  [
+                                                                                                       129060,
+                                                                                                       "2026-11-17T16:11:04.3173892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0079.jpg":  [
+                                                                                                       128227,
+                                                                                                       "2026-11-17T16:11:04.3203892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0080.jpg":  [
+                                                                                                       133793,
+                                                                                                       "2026-11-17T16:11:04.3223892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0081.jpg":  [
+                                                                                                       127500,
+                                                                                                       "2026-11-17T16:11:04.3523892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0082.jpg":  [
+                                                                                                       126459,
+                                                                                                       "2026-11-17T16:11:04.3553892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0083.jpg":  [
+                                                                                                       126176,
+                                                                                                       "2026-11-17T16:11:04.3603892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0084.jpg":  [
+                                                                                                       132204,
+                                                                                                       "2026-11-17T16:11:04.3653892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0085.jpg":  [
+                                                                                                       125652,
+                                                                                                       "2026-11-17T16:11:04.3673892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0086.jpg":  [
+                                                                                                       125869,
+                                                                                                       "2026-11-17T16:11:04.3703892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0087.jpg":  [
+                                                                                                       127029,
+                                                                                                       "2026-11-17T16:11:04.3713892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0088.jpg":  [
+                                                                                                       133634,
+                                                                                                       "2026-11-17T16:11:04.3733892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0089.jpg":  [
+                                                                                                       127756,
+                                                                                                       "2026-11-17T16:11:04.3773892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0090.jpg":  [
+                                                                                                       127833,
+                                                                                                       "2026-11-17T16:11:04.4033892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0091.jpg":  [
+                                                                                                       128922,
+                                                                                                       "2026-11-17T16:11:04.4063892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0092.jpg":  [
+                                                                                                       135716,
+                                                                                                       "2026-11-17T16:11:04.4083892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0093.jpg":  [
+                                                                                                       130407,
+                                                                                                       "2026-11-17T16:11:04.4103892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0094.jpg":  [
+                                                                                                       131012,
+                                                                                                       "2026-11-17T16:11:04.4183892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0095.jpg":  [
+                                                                                                       137870,
+                                                                                                       "2026-11-17T16:11:04.4203892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0096.jpg":  [
+                                                                                                       140633,
+                                                                                                       "2026-11-17T16:11:04.4223892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0097.jpg":  [
+                                                                                                       132941,
+                                                                                                       "2026-11-17T16:11:04.4243892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0098.jpg":  [
+                                                                                                       133274,
+                                                                                                       "2026-11-17T16:11:04.4523892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0099.jpg":  [
+                                                                                                       133934,
+                                                                                                       "2026-11-17T16:11:04.4543892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0100.jpg":  [
+                                                                                                       141502,
+                                                                                                       "2026-11-17T16:11:04.4563892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0101.jpg":  [
+                                                                                                       134996,
+                                                                                                       "2026-11-17T16:11:04.4573892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0102.jpg":  [
+                                                                                                       135792,
+                                                                                                       "2026-11-17T16:11:04.4593892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0103.jpg":  [
+                                                                                                       137361,
+                                                                                                       "2026-11-17T16:11:04.4633892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0104.jpg":  [
+                                                                                                       144113,
+                                                                                                       "2026-11-17T16:11:04.4653892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0105.jpg":  [
+                                                                                                       138036,
+                                                                                                       "2026-11-17T16:11:04.4663892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0106.jpg":  [
+                                                                                                       137781,
+                                                                                                       "2026-11-17T16:11:04.4683892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0107.jpg":  [
+                                                                                                       137699,
+                                                                                                       "2026-11-17T16:11:04.4693892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0108.jpg":  [
+                                                                                                       144037,
+                                                                                                       "2026-11-17T16:11:04.4713892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0109.jpg":  [
+                                                                                                       136986,
+                                                                                                       "2026-11-17T16:11:04.4723892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0110.jpg":  [
+                                                                                                       137060,
+                                                                                                       "2026-11-17T16:11:04.4743892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0111.jpg":  [
+                                                                                                       137682,
+                                                                                                       "2026-11-17T16:11:04.4763892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0112.jpg":  [
+                                                                                                       143886,
+                                                                                                       "2026-11-17T16:11:04.4773892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0113.jpg":  [
+                                                                                                       136788,
+                                                                                                       "2026-11-17T16:11:04.4793892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0114.jpg":  [
+                                                                                                       136715,
+                                                                                                       "2026-11-17T16:11:04.4803892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0115.jpg":  [
+                                                                                                       137170,
+                                                                                                       "2026-11-17T16:11:04.4823892Z"
+                                                                                                   ],
+                  "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_0116.jpg":  [
+                                                                                                       143760,
+                                                                                                       "2026-11-17T16:11:04.4833892Z"
+                                                                                                   ],
                   "04. 3D\\Event Space\\Test\\assets\\mixamo\\X Bot.fbx":  [
                                                                                1750032,
                                                                                "2026-11-10T16:56:00.0892589Z"
@@ -1311,6 +1783,10 @@
                                                                                                                 426747,
                                                                                                                 "2026-11-05T15:24:59.7744277Z"
                                                                                                             ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\A001C022_241203_ANKD.mp4":  [
+                                                                                                38331434,
+                                                                                                "2026-11-17T16:03:36.8113955Z"
+                                                                                            ],
                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\MAIN_LED_guide_quarter_4200x600.png":  [
                                                                                                            76121,
                                                                                                            "2026-11-06T14:41:05.4154644Z"
@@ -4597,6 +5073,8 @@
                    "03. Photoshop\\Crane Mock-up area.psd":  "Alex Gorcik",
                    "03. Photoshop\\Robot arm mock-up.psd":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\AE\\IKTVA_Hall1_Build_AE_Template.jsx":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\_ffmpeg_log.txt":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\assets\\archive\\A001C022_half\\A001C022_####.jpg":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\assets\\mixamo\\X Bot.fbx":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Event Space_V01.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Event Space_V02.c4d":  "Alex Gorcik",
@@ -4614,6 +5092,7 @@
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\SIDE_R_160x280.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\WALL_L_1600x240.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\WALL_R_1600x240.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\A001C022_241203_ANKD.mp4":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\MAIN_LED_guide_quarter_4200x600.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Pitch film sequence\\2482-3-iktva-pitches-Off The Scale_v5_####.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\0_PREVIEW\\preview_V01.mp4":  "Alex Gorcik",
