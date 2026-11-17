@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-17T12:48:50.5991016Z",
-    "fileCount":  1140,
+    "scannedAt":  "2026-11-17T13:48:51.7764293Z",
+    "fileCount":  1141,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1267,9 +1267,13 @@
                                                                                             182571450,
                                                                                             "2026-11-12T12:44:42.0655616Z"
                                                                                         ],
+                  "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d":  [
+                                                                                                  182521206,
+                                                                                                  "2026-11-17T13:32:33.0895217Z"
+                                                                                              ],
                   "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V02_TEST_RobotArm.c4d":  [
-                                                                                            182526846,
-                                                                                            "2026-11-17T12:20:51.9855815Z"
+                                                                                            182521206,
+                                                                                            "2026-11-17T13:32:32.1275217Z"
                                                                                         ],
                   "04. 3D\\Event Space\\Test\\IKTVA_CONTENT_RobotArm_anchor-relative_v01.c4d":  [
                                                                                                     56815823,
@@ -4599,6 +4603,7 @@
                    "04. 3D\\Event Space\\Test\\Iktva Event Space_V03.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01_TEST_RobotArm.c4d":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V02_TEST_RobotArm.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\IKTVA_CONTENT_RobotArm_anchor-relative_v01.c4d":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\maps\\GrandHall_LED_texture_check_R5m.png":  "Alex Gorcik",
