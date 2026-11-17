@@ -57,6 +57,7 @@ A robot arm test is being used to prove the illusion. Room previews V01 to V05 w
 
 _The daily summary updates this section automatically. The full history is on the Timeline page._
 
+- 17/11/2026: Alex Gorcik brought source clip A001C022 into the Test folder and converted it to a 117-frame half-res sequence, added a new test scene (Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d) and saved more work on the robot arm V02 file; nothing rendered, so room previews are still at V05.
 - 16/11/2026: Alex Gorcik saved the robot arm test scene as V02 and added an LED texture check image at 8 m radius / 9.25 m high; nothing rendered, so room previews are still at V05.
 - 13/11/2026: Alex Gorcik added Gen AI Shot_01 references for the crane, scientist, blacksmith and shipworker and started a robot arm Photoshop mock-up; no 3D saves or renders, so robot arm previews are still at V05.
 - 12/11/2026: Alex Gorcik set CAM EYE A in the robot arm test file to 1.20 m to match the master (now the agreed eye height for every scene) and added a crane Gen AI reference and Photoshop mock-up; no new robot arm previews since the camera change.

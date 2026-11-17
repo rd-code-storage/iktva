@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-11-17",
+    "summary": "Alex Gorcik started bringing source footage into the test pipeline: clip A001C022_241203_ANKD.mp4 was added to the Test renders/FOOTAGE folder and converted into a 117-frame half-resolution JPG sequence (A001C022_half) under the Test assets/archive folder. A new test scene appeared alongside it, Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d (saved three times), and the robot arm test file Iktva Grand Hall_V02_TEST_RobotArm.c4d was saved four more times. Nothing new was rendered from the room preview pass, so the robot arm previews are still at V05 and still do not show the V02 scene or the 1.20 m eye height fix. Worth checking: the ffmpeg log next to the image sequence (_ffmpeg_log.txt) is empty, so there is no record of the settings used for the half-res conversion."
+  },
+  {
     "date": "2026-11-16",
     "summary": "Alex Gorcik moved the robot arm test scene on from V01 to V02 (Iktva Grand Hall_V02_TEST_RobotArm.c4d) and added an LED texture check image for an 8 m radius, 9.25 m high wall, the first work on that test file since 11/11. Nothing was rendered today, so the room previews are still at V05 and none of them show the V02 scene or the 1.20 m eye height fix. The LED sizes behind that texture check are still working values, as the staging team has not confirmed size, curve or pixel pitch, and the DELIVER scale 0.1 caveat on the test file is worth re-checking in V02 before anything is delivered from it."
   },
