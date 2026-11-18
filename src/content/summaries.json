@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-11-18",
+    "summary": "A quiet day: the only recorded activity was Alex Gorcik saving the new footage-on-shell test scene, Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d, once in the early afternoon. No new versions, footage or renders were added, and the robot arm test file was not touched, so the room previews are still at V05 and still do not show the V02 scene or the 1.20 m eye height fix. Nothing has been rendered from the ArchiveToShell test yet, so there is nothing to review from it so far."
+  },
+  {
     "date": "2026-11-17",
     "summary": "Alex Gorcik started bringing source footage into the test pipeline: clip A001C022_241203_ANKD.mp4 was added to the Test renders/FOOTAGE folder and converted into a 117-frame half-resolution JPG sequence (A001C022_half) under the Test assets/archive folder. A new test scene appeared alongside it, Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d (saved three times), and the robot arm test file Iktva Grand Hall_V02_TEST_RobotArm.c4d was saved four more times. Nothing new was rendered from the room preview pass, so the robot arm previews are still at V05 and still do not show the V02 scene or the 1.20 m eye height fix. Worth checking: the ffmpeg log next to the image sequence (_ffmpeg_log.txt) is empty, so there is no record of the settings used for the half-res conversion."
   },
