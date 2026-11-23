@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-23T17:48:51.3801827Z",
-    "fileCount":  1266,
+    "scannedAt":  "2026-11-23T18:18:51.7743989Z",
+    "fileCount":  1267,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -4948,8 +4948,8 @@
                                                                 "2026-11-04T13:16:41.6655349Z"
                                                             ],
                   "04. 3D\\Shot_03 \u0026 04_Particles\\Particle Explosion_V01.c4d":  [
-                                                                                          27888655,
-                                                                                          "2026-11-23T17:24:15.5934223Z"
+                                                                                          27893552,
+                                                                                          "2026-11-23T17:56:54.6243950Z"
                                                                                       ],
                   "05. Assets\\Gen AI Refernces\\Blacksmith\\Shot_01\\Shot_01_v01.png":  [
                                                                                              6163837,
@@ -5032,29 +5032,33 @@
                                                                                                                          "2026-11-23T15:56:30.4224014Z"
                                                                                                                      ],
                   "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\A_sparkler_RS_previs_V02_.mp4":  [
-                                                                                                                         8984491,
-                                                                                                                         "2026-11-23T17:37:58.3954108Z"
+                                                                                                                         10638517,
+                                                                                                                         "2026-11-23T17:53:47.8063976Z"
                                                                                                                      ],
                   "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V01_.mp4":  [
                                                                                                                        16641063,
                                                                                                                        "2026-11-23T15:56:30.3894014Z"
                                                                                                                    ],
                   "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V02_.mp4":  [
-                                                                                                                       11146101,
-                                                                                                                       "2026-11-23T17:37:58.1364108Z"
+                                                                                                                       12800417,
+                                                                                                                       "2026-11-23T17:53:47.7753976Z"
                                                                                                                    ],
-                  "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4":  [
-                                                                                       26211832,
-                                                                                       "2026-08-18T15:03:29.0223956Z"
-                                                                                   ],
-                  "06. Exports\\AfterFX Exports\\the_robot_arm_pulls_backwards_V01.mp4":  [
-                                                                                              26477087,
-                                                                                              "2026-08-18T16:33:27.6292911Z"
-                                                                                          ],
-                  "06. Exports\\AfterFX Exports\\Welder_01.mp4":  [
-                                                                      14745733,
-                                                                      "2026-08-18T13:06:29.6864933Z"
-                                                                  ],
+                  "06. Exports\\AfterFX Exports\\Shot_01\\Off the Scale Laser reveal_V01.mp4":  [
+                                                                                                    19136102,
+                                                                                                    "2026-11-23T17:51:54.9013992Z"
+                                                                                                ],
+                  "06. Exports\\AfterFX Exports\\Test\\Off the Scale Laser reveal.mp4":  [
+                                                                                             26211832,
+                                                                                             "2026-08-18T15:03:29.0223956Z"
+                                                                                         ],
+                  "06. Exports\\AfterFX Exports\\Test\\the_robot_arm_pulls_backwards_V01.mp4":  [
+                                                                                                    26477087,
+                                                                                                    "2026-08-18T16:33:27.6292911Z"
+                                                                                                ],
+                  "06. Exports\\AfterFX Exports\\Test\\Welder_01.mp4":  [
+                                                                            14745733,
+                                                                            "2026-08-18T13:06:29.6864933Z"
+                                                                        ],
                   "06. Exports\\Kling\\Off The Scale Screen Logo Reveal\\kling_20260818_VIDEO_Locked_off_4833_0.mp4":  [
                                                                                                                            5417937,
                                                                                                                            "2026-08-18T10:59:19.2460967Z"
@@ -5170,6 +5174,10 @@
                    "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V01_.mp4":  "Alex Gorcik",
                    "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V02_.mp4":  "Alex Gorcik",
                    "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4":  "Alex Gorcik",
+                   "06. Exports\\AfterFX Exports\\Shot_01\\Off the Scale Laser reveal_V01.mp4":  "Alex Gorcik",
+                   "06. Exports\\AfterFX Exports\\Test\\Off the Scale Laser reveal.mp4":  "Alex Gorcik",
+                   "06. Exports\\AfterFX Exports\\Test\\the_robot_arm_pulls_backwards_V01.mp4":  "Alex Gorcik",
+                   "06. Exports\\AfterFX Exports\\Test\\Welder_01.mp4":  "Alex Gorcik",
                    "06. Exports\\AfterFX Exports\\the_robot_arm_pulls_backwards_V01.mp4":  "Alex Gorcik",
                    "06. Exports\\AfterFX Exports\\Welder_01.mp4":  "Alex Gorcik",
                    "06. Exports\\Kling\\Off The Scale Screen Logo Reveal\\kling_20260818_VIDEO_Locked_off_4833_0.mp4":  "Alex Gorcik",
