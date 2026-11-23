@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-18T13:18:50.7206047Z",
-    "fileCount":  1260,
+    "scannedAt":  "2026-11-23T11:48:51.0111026Z",
+    "fileCount":  1261,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1143,6 +1143,10 @@
                                                                                             2748465,
                                                                                             "2026-11-06T15:19:01.7174327Z"
                                                                                         ],
+                  "01. After Effects\\Laser Grid\\Laser Grid_V01.aep":  [
+                                                                            9291,
+                                                                            "2026-11-23T11:23:23.7676296Z"
+                                                                        ],
                   "01. After Effects\\Pitch AE Files\\Event Space Mock-ups_v01.aep":  [
                                                                                           630268,
                                                                                           "2026-11-11T15:13:49.8784371Z"
@@ -5048,6 +5052,7 @@
                    "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  "Alex Gorcik",
                    "01. After Effects\\01. Live Action Panoramic Tests\\Renders\\Welder\\Welder_####.tif":  "Alex Gorcik",
                    "01. After Effects\\01. Live Action Panoramic Tests\\Welder_01.aep":  "Alex Gorcik",
+                   "01. After Effects\\Laser Grid\\Laser Grid_V01.aep":  "Alex Gorcik",
                    "01. After Effects\\Pitch AE Files\\Event Space Mock-ups_v01.aep":  "Alex Gorcik",
                    "01. After Effects\\Pitch AE Files\\Laser Streaks Logo Reveal\\(Footage)\\ASSETS\\L12.png":  "Alex Gorcik",
                    "01. After Effects\\Pitch AE Files\\Laser Streaks Logo Reveal\\(Footage)\\ASSETS\\Red Lens flares.png":  "Alex Gorcik",
