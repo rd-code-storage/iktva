@@ -1,7 +1,23 @@
 {
-    "updatedAt":  "2026-11-23T16:18:51.0132797Z",
+    "updatedAt":  "2026-11-23T17:18:51.0309891Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "cfb2cd26b5b7",
+                       "date":  "2026-11-23T17:13:52.5484309Z",
+                       "kind":  "added",
+                       "category":  "scene",
+                       "title":  "Added Particle Explosion_V01.c4d",
+                       "detail":  "saved 2 times",
+                       "path":  "04. 3D\\Shot_03 \u0026 04_Particles",
+                       "name":  "Particle Explosion_V01.c4d",
+                       "key":  "04. 3D\\Shot_03 \u0026 04_Particles\\Particle Explosion_V01.c4d",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  10888224,
+                       "saves":  2,
+                       "backfill":  false
+                   },
                    {
                        "id":  "6f0f584ef78c",
                        "date":  "2026-11-23T15:56:30.4224014Z",
@@ -32,22 +48,6 @@
                        "count":  1,
                        "size":  16641063,
                        "saves":  2,
-                       "backfill":  false
-                   },
-                   {
-                       "id":  "cfb2cd26b5b7",
-                       "date":  "2026-11-23T15:35:48.0024187Z",
-                       "kind":  "added",
-                       "category":  "scene",
-                       "title":  "Added Particle Explosion_V01.c4d",
-                       "detail":  "",
-                       "path":  "04. 3D\\Shot_03 \u0026 04_Particles",
-                       "name":  "Particle Explosion_V01.c4d",
-                       "key":  "04. 3D\\Shot_03 \u0026 04_Particles\\Particle Explosion_V01.c4d",
-                       "by":  "Alex Gorcik",
-                       "count":  1,
-                       "size":  943090,
-                       "saves":  1,
                        "backfill":  false
                    },
                    {
