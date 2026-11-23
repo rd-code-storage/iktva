@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-23T17:18:51.0309891Z",
-    "fileCount":  1264,
+    "scannedAt":  "2026-11-23T17:48:51.3801827Z",
+    "fileCount":  1266,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -4948,8 +4948,8 @@
                                                                 "2026-11-04T13:16:41.6655349Z"
                                                             ],
                   "04. 3D\\Shot_03 \u0026 04_Particles\\Particle Explosion_V01.c4d":  [
-                                                                                          10888224,
-                                                                                          "2026-11-23T17:13:52.5484309Z"
+                                                                                          27888655,
+                                                                                          "2026-11-23T17:24:15.5934223Z"
                                                                                       ],
                   "05. Assets\\Gen AI Refernces\\Blacksmith\\Shot_01\\Shot_01_v01.png":  [
                                                                                              6163837,
@@ -5031,9 +5031,17 @@
                                                                                                                          14418492,
                                                                                                                          "2026-11-23T15:56:30.4224014Z"
                                                                                                                      ],
+                  "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\A_sparkler_RS_previs_V02_.mp4":  [
+                                                                                                                         8984491,
+                                                                                                                         "2026-11-23T17:37:58.3954108Z"
+                                                                                                                     ],
                   "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V01_.mp4":  [
                                                                                                                        16641063,
                                                                                                                        "2026-11-23T15:56:30.3894014Z"
+                                                                                                                   ],
+                  "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V02_.mp4":  [
+                                                                                                                       11146101,
+                                                                                                                       "2026-11-23T17:37:58.1364108Z"
                                                                                                                    ],
                   "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4":  [
                                                                                        26211832,
@@ -5158,7 +5166,9 @@
                    "05. Assets\\Test shots\\Shipyard Worker Tightening Rusted Steel Bolts.png":  "Alex Gorcik",
                    "05. Assets\\Test shots\\Welder wide shot.mov":  "Alex Gorcik",
                    "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\A_sparkler_RS_previs_V01_.mp4":  "Alex Gorcik",
+                   "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\A_sparkler_RS_previs_V02_.mp4":  "Alex Gorcik",
                    "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V01_.mp4":  "Alex Gorcik",
+                   "06. Exports\\3D Exports\\Shot_03 \u0026 04_Particles\\previs_01\\sparkler_RS_previs_V02_.mp4":  "Alex Gorcik",
                    "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4":  "Alex Gorcik",
                    "06. Exports\\AfterFX Exports\\the_robot_arm_pulls_backwards_V01.mp4":  "Alex Gorcik",
                    "06. Exports\\AfterFX Exports\\Welder_01.mp4":  "Alex Gorcik",
