@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-24T14:48:50.3053129Z",
-    "fileCount":  1397,
+    "scannedAt":  "2026-11-24T15:18:50.3679792Z",
+    "fileCount":  1497,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1736,8 +1736,8 @@
                                                                                "2026-11-06T14:42:04.7164636Z"
                                                                            ],
                   "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01.c4d":  [
-                                                                              12188712,
-                                                                              "2026-11-24T14:48:03.2474586Z"
+                                                                              11986583,
+                                                                              "2026-11-24T15:09:07.0274410Z"
                                                                           ],
                   "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01_TEST_RobotArm.c4d":  [
                                                                                             182571450,
@@ -2303,6 +2303,406 @@
                                                                                                                                            4713399,
                                                                                                                                            "2026-11-24T14:20:19.8634817Z"
                                                                                                                                        ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1000.png":  [
+                                                                                                                                                                              7491258,
+                                                                                                                                                                              "2026-11-24T15:02:50.9644462Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1001.png":  [
+                                                                                                                                                                              7873146,
+                                                                                                                                                                              "2026-11-24T15:02:52.2684462Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1002.png":  [
+                                                                                                                                                                              9865127,
+                                                                                                                                                                              "2026-11-24T15:02:53.6964462Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1003.png":  [
+                                                                                                                                                                              8972629,
+                                                                                                                                                                              "2026-11-24T15:02:55.0084462Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1004.png":  [
+                                                                                                                                                                              8493447,
+                                                                                                                                                                              "2026-11-24T15:02:56.2654462Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1005.png":  [
+                                                                                                                                                                              7936475,
+                                                                                                                                                                              "2026-11-24T15:02:57.5014461Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1006.png":  [
+                                                                                                                                                                              7776402,
+                                                                                                                                                                              "2026-11-24T15:02:58.7654461Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1007.png":  [
+                                                                                                                                                                              7601640,
+                                                                                                                                                                              "2026-11-24T15:02:59.9684461Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1008.png":  [
+                                                                                                                                                                              7160449,
+                                                                                                                                                                              "2026-11-24T15:03:01.1344461Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1009.png":  [
+                                                                                                                                                                              7254972,
+                                                                                                                                                                              "2026-11-24T15:03:02.3694461Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1010.png":  [
+                                                                                                                                                                              7233310,
+                                                                                                                                                                              "2026-11-24T15:03:03.5334461Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1011.png":  [
+                                                                                                                                                                              7246291,
+                                                                                                                                                                              "2026-11-24T15:03:04.7084460Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1012.png":  [
+                                                                                                                                                                              7262898,
+                                                                                                                                                                              "2026-11-24T15:03:05.9074460Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1013.png":  [
+                                                                                                                                                                              8545485,
+                                                                                                                                                                              "2026-11-24T15:03:07.2134460Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1014.png":  [
+                                                                                                                                                                              7885209,
+                                                                                                                                                                              "2026-11-24T15:03:08.3714460Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1015.png":  [
+                                                                                                                                                                              7336668,
+                                                                                                                                                                              "2026-11-24T15:03:09.4734460Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1016.png":  [
+                                                                                                                                                                              7234450,
+                                                                                                                                                                              "2026-11-24T15:03:10.5754460Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1017.png":  [
+                                                                                                                                                                              7052560,
+                                                                                                                                                                              "2026-11-24T15:03:11.7084459Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1018.png":  [
+                                                                                                                                                                              6958483,
+                                                                                                                                                                              "2026-11-24T15:03:12.7534459Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1019.png":  [
+                                                                                                                                                                              6887366,
+                                                                                                                                                                              "2026-11-24T15:03:13.8054459Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1020.png":  [
+                                                                                                                                                                              6966700,
+                                                                                                                                                                              "2026-11-24T15:03:14.8504459Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1021.png":  [
+                                                                                                                                                                              6898614,
+                                                                                                                                                                              "2026-11-24T15:03:15.9054459Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1022.png":  [
+                                                                                                                                                                              6871720,
+                                                                                                                                                                              "2026-11-24T15:03:17.0124459Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1023.png":  [
+                                                                                                                                                                              6936060,
+                                                                                                                                                                              "2026-11-24T15:03:18.0664458Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1024.png":  [
+                                                                                                                                                                              6921156,
+                                                                                                                                                                              "2026-11-24T15:03:19.0984458Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1025.png":  [
+                                                                                                                                                                              7001957,
+                                                                                                                                                                              "2026-11-24T15:03:20.1574458Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1026.png":  [
+                                                                                                                                                                              7808722,
+                                                                                                                                                                              "2026-11-24T15:03:21.3894458Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1027.png":  [
+                                                                                                                                                                              7705915,
+                                                                                                                                                                              "2026-11-24T15:03:22.6824458Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1028.png":  [
+                                                                                                                                                                              7114581,
+                                                                                                                                                                              "2026-11-24T15:03:23.8854458Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1029.png":  [
+                                                                                                                                                                              7055167,
+                                                                                                                                                                              "2026-11-24T15:03:25.0714458Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1030.png":  [
+                                                                                                                                                                              7080919,
+                                                                                                                                                                              "2026-11-24T15:03:26.2754457Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1031.png":  [
+                                                                                                                                                                              7089114,
+                                                                                                                                                                              "2026-11-24T15:03:27.4794457Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1032.png":  [
+                                                                                                                                                                              7123650,
+                                                                                                                                                                              "2026-11-24T15:03:28.5884457Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1033.png":  [
+                                                                                                                                                                              7128384,
+                                                                                                                                                                              "2026-11-24T15:03:29.7984457Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1034.png":  [
+                                                                                                                                                                              7077010,
+                                                                                                                                                                              "2026-11-24T15:03:30.9074457Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1035.png":  [
+                                                                                                                                                                              7056414,
+                                                                                                                                                                              "2026-11-24T15:03:32.0574457Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1036.png":  [
+                                                                                                                                                                              7046567,
+                                                                                                                                                                              "2026-11-24T15:03:33.1674456Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1037.png":  [
+                                                                                                                                                                              7062173,
+                                                                                                                                                                              "2026-11-24T15:03:34.3504456Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1038.png":  [
+                                                                                                                                                                              7046202,
+                                                                                                                                                                              "2026-11-24T15:03:35.5974456Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1039.png":  [
+                                                                                                                                                                              7075613,
+                                                                                                                                                                              "2026-11-24T15:03:36.8634456Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1040.png":  [
+                                                                                                                                                                              7107795,
+                                                                                                                                                                              "2026-11-24T15:03:38.0464456Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1041.png":  [
+                                                                                                                                                                              7747717,
+                                                                                                                                                                              "2026-11-24T15:03:39.3674456Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1042.png":  [
+                                                                                                                                                                              8498713,
+                                                                                                                                                                              "2026-11-24T15:03:40.5584455Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1043.png":  [
+                                                                                                                                                                              7997220,
+                                                                                                                                                                              "2026-11-24T15:03:41.7604455Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1044.png":  [
+                                                                                                                                                                              7737161,
+                                                                                                                                                                              "2026-11-24T15:03:43.0184455Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1045.png":  [
+                                                                                                                                                                              7295434,
+                                                                                                                                                                              "2026-11-24T15:03:44.1594455Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1046.png":  [
+                                                                                                                                                                              7312317,
+                                                                                                                                                                              "2026-11-24T15:03:45.3694455Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1047.png":  [
+                                                                                                                                                                              7267793,
+                                                                                                                                                                              "2026-11-24T15:03:46.5884455Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1048.png":  [
+                                                                                                                                                                              7122809,
+                                                                                                                                                                              "2026-11-24T15:03:47.6894454Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1049.png":  [
+                                                                                                                                                                              7247549,
+                                                                                                                                                                              "2026-11-24T15:03:48.8714454Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1050.png":  [
+                                                                                                                                                                              7171622,
+                                                                                                                                                                              "2026-11-24T15:03:49.9744454Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1051.png":  [
+                                                                                                                                                                              7330009,
+                                                                                                                                                                              "2026-11-24T15:03:51.1814454Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1052.png":  [
+                                                                                                                                                                              7432701,
+                                                                                                                                                                              "2026-11-24T15:03:52.3384454Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1053.png":  [
+                                                                                                                                                                              7327822,
+                                                                                                                                                                              "2026-11-24T15:03:53.5404454Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1054.png":  [
+                                                                                                                                                                              7379205,
+                                                                                                                                                                              "2026-11-24T15:03:54.7444453Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1055.png":  [
+                                                                                                                                                                              7307803,
+                                                                                                                                                                              "2026-11-24T15:03:55.9414453Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1056.png":  [
+                                                                                                                                                                              7492974,
+                                                                                                                                                                              "2026-11-24T15:03:57.1534453Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1057.png":  [
+                                                                                                                                                                              7547763,
+                                                                                                                                                                              "2026-11-24T15:03:58.3694453Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1058.png":  [
+                                                                                                                                                                              7429866,
+                                                                                                                                                                              "2026-11-24T15:03:59.4944453Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1059.png":  [
+                                                                                                                                                                              7544428,
+                                                                                                                                                                              "2026-11-24T15:04:00.7014453Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1060.png":  [
+                                                                                                                                                                              7491405,
+                                                                                                                                                                              "2026-11-24T15:04:01.9184452Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1061.png":  [
+                                                                                                                                                                              7599634,
+                                                                                                                                                                              "2026-11-24T15:04:03.1314452Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1062.png":  [
+                                                                                                                                                                              7638657,
+                                                                                                                                                                              "2026-11-24T15:04:04.3624452Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1063.png":  [
+                                                                                                                                                                              7618199,
+                                                                                                                                                                              "2026-11-24T15:04:05.5804452Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1064.png":  [
+                                                                                                                                                                              7649799,
+                                                                                                                                                                              "2026-11-24T15:04:06.7444452Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1065.png":  [
+                                                                                                                                                                              7656124,
+                                                                                                                                                                              "2026-11-24T15:04:07.9824452Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1066.png":  [
+                                                                                                                                                                              7702290,
+                                                                                                                                                                              "2026-11-24T15:04:09.2064451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1067.png":  [
+                                                                                                                                                                              8207405,
+                                                                                                                                                                              "2026-11-24T15:04:10.4164451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1068.png":  [
+                                                                                                                                                                              4673286,
+                                                                                                                                                                              "2026-11-24T15:04:11.3244451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1069.png":  [
+                                                                                                                                                                              3956879,
+                                                                                                                                                                              "2026-11-24T15:04:12.0124451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1070.png":  [
+                                                                                                                                                                              3934204,
+                                                                                                                                                                              "2026-11-24T15:04:12.6754451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1071.png":  [
+                                                                                                                                                                              3912579,
+                                                                                                                                                                              "2026-11-24T15:04:13.3954451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1072.png":  [
+                                                                                                                                                                              3858013,
+                                                                                                                                                                              "2026-11-24T15:04:14.0864451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1073.png":  [
+                                                                                                                                                                              3928780,
+                                                                                                                                                                              "2026-11-24T15:04:14.7954451Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1074.png":  [
+                                                                                                                                                                              4077365,
+                                                                                                                                                                              "2026-11-24T15:04:15.6204450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1075.png":  [
+                                                                                                                                                                              4249647,
+                                                                                                                                                                              "2026-11-24T15:04:16.3794450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1076.png":  [
+                                                                                                                                                                              4354436,
+                                                                                                                                                                              "2026-11-24T15:04:17.1654450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1077.png":  [
+                                                                                                                                                                              4432306,
+                                                                                                                                                                              "2026-11-24T15:04:17.9634450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1078.png":  [
+                                                                                                                                                                              4457321,
+                                                                                                                                                                              "2026-11-24T15:04:18.8334450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1079.png":  [
+                                                                                                                                                                              4381329,
+                                                                                                                                                                              "2026-11-24T15:04:19.6144450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1080.png":  [
+                                                                                                                                                                              4386871,
+                                                                                                                                                                              "2026-11-24T15:04:20.4014450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1081.png":  [
+                                                                                                                                                                              4409715,
+                                                                                                                                                                              "2026-11-24T15:04:21.1804450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1082.png":  [
+                                                                                                                                                                              4490811,
+                                                                                                                                                                              "2026-11-24T15:04:22.0154450Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1083.png":  [
+                                                                                                                                                                              4532389,
+                                                                                                                                                                              "2026-11-24T15:04:22.8914449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1084.png":  [
+                                                                                                                                                                              4538430,
+                                                                                                                                                                              "2026-11-24T15:04:23.6394449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1085.png":  [
+                                                                                                                                                                              4474468,
+                                                                                                                                                                              "2026-11-24T15:04:24.3844449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1086.png":  [
+                                                                                                                                                                              4450130,
+                                                                                                                                                                              "2026-11-24T15:04:25.1734449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1087.png":  [
+                                                                                                                                                                              4398874,
+                                                                                                                                                                              "2026-11-24T15:04:25.9544449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1088.png":  [
+                                                                                                                                                                              4407428,
+                                                                                                                                                                              "2026-11-24T15:04:26.7734449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1089.png":  [
+                                                                                                                                                                              4398229,
+                                                                                                                                                                              "2026-11-24T15:04:27.6324449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1090.png":  [
+                                                                                                                                                                              4462526,
+                                                                                                                                                                              "2026-11-24T15:04:28.4304449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1091.png":  [
+                                                                                                                                                                              4491312,
+                                                                                                                                                                              "2026-11-24T15:04:29.2244449Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1092.png":  [
+                                                                                                                                                                              4486494,
+                                                                                                                                                                              "2026-11-24T15:04:30.0934448Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1093.png":  [
+                                                                                                                                                                              4399530,
+                                                                                                                                                                              "2026-11-24T15:04:30.8804448Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1094.png":  [
+                                                                                                                                                                              4337977,
+                                                                                                                                                                              "2026-11-24T15:04:31.6854448Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1095.png":  [
+                                                                                                                                                                              4255230,
+                                                                                                                                                                              "2026-11-24T15:04:32.4494448Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1096.png":  [
+                                                                                                                                                                              4301436,
+                                                                                                                                                                              "2026-11-24T15:04:33.2134448Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1097.png":  [
+                                                                                                                                                                              4347873,
+                                                                                                                                                                              "2026-11-24T15:04:34.0824448Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1098.png":  [
+                                                                                                                                                                              4474868,
+                                                                                                                                                                              "2026-11-24T15:04:34.8314448Z"
+                                                                                                                                                                          ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1099.png":  [
+                                                                                                                                                                              4549092,
+                                                                                                                                                                              "2026-11-24T15:04:35.5814448Z"
+                                                                                                                                                                          ],
                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\MAIN_LED_guide_quarter_4200x600.png":  [
                                                                                                            76121,
                                                                                                            "2026-11-06T14:41:05.4154644Z"
@@ -5770,6 +6170,106 @@
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD125.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD126.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD127.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1000.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1001.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1002.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1003.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1004.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1005.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1006.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1007.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1008.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1009.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1010.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1011.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1012.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1013.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1014.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1015.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1016.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1017.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1018.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1019.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1020.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1021.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1022.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1023.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1024.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1025.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1026.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1027.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1028.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1029.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1030.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1031.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1032.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1033.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1034.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1035.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1036.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1037.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1038.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1039.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1040.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1041.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1042.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1043.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1044.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1045.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1046.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1047.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1048.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1049.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1050.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1051.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1052.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1053.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1054.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1055.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1056.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1057.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1058.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1059.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1060.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1061.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1062.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1063.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1064.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1065.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1066.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1067.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1068.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1069.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1070.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1071.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1072.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1073.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1074.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1075.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1076.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1077.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1078.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1079.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1080.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1081.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1082.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1083.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1084.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1085.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1086.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1087.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1088.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1089.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1090.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1091.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1092.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1093.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1094.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1095.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1096.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1097.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1098.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\V02\\2412c_IKTVA_HERO_v58_GRADED \u0026 MIXED_1_2_rhea1099.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\MAIN_LED_guide_quarter_4200x600.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Pitch film sequence\\2482-3-iktva-pitches-Off The Scale_v5_####.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\0_PREVIEW\\preview_V01.mp4":  "Alex Gorcik",
