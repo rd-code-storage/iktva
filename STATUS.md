@@ -57,6 +57,7 @@ A robot arm test is being used to prove the illusion. Room previews V01 to V05 w
 
 _The daily summary updates this section automatically. The full history is on the Timeline page._
 
+- 24/11/2026: Alex Gorcik took the sparkler previs from V02 to V03 and saved Particle Explosion_V01 and Laser Grid_V01 again, and returned to the Grand Hall master scene (first saves since 11/11) for a curved-screen footage test with 228 new plate and graded hero frames; robot arm untouched, so room previews are still at V05.
 - 23/11/2026: Alex Gorcik started the particle shots (new Particle Explosion_V01.c4d in Shot_03 & 04_Particles, plus two sparkler Redshift previs V01 clips) and a Laser Grid_V01 After Effects project; robot arm untouched, so room previews are still at V05.
 - 18/11/2026: Quiet day: Alex Gorcik saved the ArchiveToShell test scene (Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d) once; no new versions or renders, so room previews are still at V05.
 - 17/11/2026: Alex Gorcik brought source clip A001C022 into the Test folder and converted it to a 117-frame half-res sequence, added a new test scene (Iktva Grand Hall_V02_TEST_ArchiveToShell.c4d) and saved more work on the robot arm V02 file; nothing rendered, so room previews are still at V05.
