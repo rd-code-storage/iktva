@@ -1,7 +1,7 @@
 {
     "root":  "U:\\Projects\\2482-3-iktva-pitches - Off the Scale\\02. Animation",
-    "scannedAt":  "2026-11-24T12:48:50.7300928Z",
-    "fileCount":  1269,
+    "scannedAt":  "2026-11-24T14:18:50.3732218Z",
+    "fileCount":  1285,
     "files":  {
                   "01. After Effects\\01. Live Action Panoramic Tests\\After Effects Base File for Temp Screens_V01.aep":  [
                                                                                                                                3618467,
@@ -1736,8 +1736,8 @@
                                                                                "2026-11-06T14:42:04.7164636Z"
                                                                            ],
                   "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01.c4d":  [
-                                                                              835640,
-                                                                              "2026-11-24T12:35:22.6005694Z"
+                                                                              983288,
+                                                                              "2026-11-24T14:08:24.2884917Z"
                                                                           ],
                   "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01_TEST_RobotArm.c4d":  [
                                                                                             182571450,
@@ -1791,6 +1791,70 @@
                                                                                                 38331434,
                                                                                                 "2026-11-17T16:03:36.8113955Z"
                                                                                             ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD000.png":  [
+                                                                                                                                           3147731,
+                                                                                                                                           "2026-11-24T14:18:40.4234831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD001.png":  [
+                                                                                                                                           2747144,
+                                                                                                                                           "2026-11-24T14:18:40.9934831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD002.png":  [
+                                                                                                                                           2381181,
+                                                                                                                                           "2026-11-24T14:18:41.5094831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD003.png":  [
+                                                                                                                                           2728165,
+                                                                                                                                           "2026-11-24T14:18:42.0694831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD004.png":  [
+                                                                                                                                           2853235,
+                                                                                                                                           "2026-11-24T14:18:42.6534831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD005.png":  [
+                                                                                                                                           2937437,
+                                                                                                                                           "2026-11-24T14:18:43.2254831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD006.png":  [
+                                                                                                                                           2573388,
+                                                                                                                                           "2026-11-24T14:18:43.7674831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD007.png":  [
+                                                                                                                                           2902805,
+                                                                                                                                           "2026-11-24T14:18:44.3404831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD008.png":  [
+                                                                                                                                           2865879,
+                                                                                                                                           "2026-11-24T14:18:44.9554831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD009.png":  [
+                                                                                                                                           2625714,
+                                                                                                                                           "2026-11-24T14:18:45.5714831Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD010.png":  [
+                                                                                                                                           2219622,
+                                                                                                                                           "2026-11-24T14:18:46.1304830Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD011.png":  [
+                                                                                                                                           2581957,
+                                                                                                                                           "2026-11-24T14:18:46.7834830Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD012.png":  [
+                                                                                                                                           2319864,
+                                                                                                                                           "2026-11-24T14:18:47.4134830Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD013.png":  [
+                                                                                                                                           2294281,
+                                                                                                                                           "2026-11-24T14:18:47.9834830Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD014.png":  [
+                                                                                                                                           1891616,
+                                                                                                                                           "2026-11-24T14:18:48.5134830Z"
+                                                                                                                                       ],
+                  "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD015.png":  [
+                                                                                                                                           1944459,
+                                                                                                                                           "2026-11-24T14:18:48.5834830Z"
+                                                                                                                                       ],
                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\MAIN_LED_guide_quarter_4200x600.png":  [
                                                                                                            76121,
                                                                                                            "2026-11-06T14:41:05.4154644Z"
@@ -5130,6 +5194,22 @@
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\WALL_L_1600x240.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\DEMO_flat_files_1-10th_scale\\WALL_R_1600x240.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\A001C022_241203_ANKD.mp4":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD000.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD001.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD002.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD003.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD004.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD005.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD006.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD007.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD008.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD009.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD010.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD011.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD012.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD013.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD014.png":  "Alex Gorcik",
+                   "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Curved Screen - permanent false border\\A001C003_241203_ANKD015.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\MAIN_LED_guide_quarter_4200x600.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\FOOTAGE\\Pitch film sequence\\2482-3-iktva-pitches-Off The Scale_v5_####.png":  "Alex Gorcik",
                    "04. 3D\\Event Space\\Test\\renders\\GrandHall_TEST\\0_PREVIEW\\preview_V01.mp4":  "Alex Gorcik",
