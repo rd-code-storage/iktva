@@ -1,7 +1,23 @@
 {
-    "updatedAt":  "2026-11-23T18:18:51.7743989Z",
+    "updatedAt":  "2026-11-24T10:18:50.6985894Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "e3c6c48dfde6",
+                       "date":  "2026-11-24T10:02:50.3276968Z",
+                       "kind":  "updated",
+                       "category":  "scene",
+                       "title":  "Updated Particle Explosion_V01.c4d",
+                       "detail":  "",
+                       "path":  "04. 3D\\Shot_03 \u0026 04_Particles",
+                       "name":  "Particle Explosion_V01.c4d",
+                       "key":  "04. 3D\\Shot_03 \u0026 04_Particles\\Particle Explosion_V01.c4d",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  29531472,
+                       "saves":  1,
+                       "backfill":  false
+                   },
                    {
                        "id":  "71c9c1256227",
                        "date":  "2026-11-23T18:18:51.7743989Z",
@@ -19,22 +35,6 @@
                        "backfill":  false
                    },
                    {
-                       "id":  "2e28c8334cc7",
-                       "date":  "2026-11-23T18:18:51.7743989Z",
-                       "kind":  "deleted",
-                       "category":  "video",
-                       "title":  "Deleted Off the Scale Laser reveal.mp4",
-                       "detail":  "",
-                       "path":  "06. Exports\\AfterFX Exports",
-                       "name":  "Off the Scale Laser reveal.mp4",
-                       "key":  "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4",
-                       "by":  "Alex Gorcik",
-                       "count":  1,
-                       "size":  0,
-                       "saves":  1,
-                       "backfill":  false
-                   },
-                   {
                        "id":  "f2ed441f9fbb",
                        "date":  "2026-11-23T18:18:51.7743989Z",
                        "kind":  "deleted",
@@ -44,6 +44,22 @@
                        "path":  "06. Exports\\AfterFX Exports",
                        "name":  "the_robot_arm_pulls_backwards_V01.mp4",
                        "key":  "06. Exports\\AfterFX Exports\\the_robot_arm_pulls_backwards_V01.mp4",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  0,
+                       "saves":  1,
+                       "backfill":  false
+                   },
+                   {
+                       "id":  "2e28c8334cc7",
+                       "date":  "2026-11-23T18:18:51.7743989Z",
+                       "kind":  "deleted",
+                       "category":  "video",
+                       "title":  "Deleted Off the Scale Laser reveal.mp4",
+                       "detail":  "",
+                       "path":  "06. Exports\\AfterFX Exports",
+                       "name":  "Off the Scale Laser reveal.mp4",
+                       "key":  "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4",
                        "by":  "Alex Gorcik",
                        "count":  1,
                        "size":  0,
