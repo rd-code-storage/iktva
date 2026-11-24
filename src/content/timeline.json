@@ -1,21 +1,21 @@
 {
-    "updatedAt":  "2026-11-24T16:18:50.3515796Z",
+    "updatedAt":  "2026-11-24T16:48:50.3827839Z",
     "root":  "02. Animation",
     "events":  [
                    {
                        "id":  "afae23d3bb99",
-                       "date":  "2026-11-24T16:15:50.1763853Z",
+                       "date":  "2026-11-24T16:22:10.9553800Z",
                        "kind":  "updated",
                        "category":  "scene",
                        "title":  "Updated Iktva Grand Hall_V01.c4d",
-                       "detail":  "saved 5 times",
+                       "detail":  "saved 6 times",
                        "path":  "04. 3D\\Event Space\\Test",
                        "name":  "Iktva Grand Hall_V01.c4d",
                        "key":  "04. 3D\\Event Space\\Test\\Iktva Grand Hall_V01.c4d",
                        "by":  "Alex Gorcik",
                        "count":  1,
-                       "size":  12001993,
-                       "saves":  5,
+                       "size":  12001351,
+                       "saves":  6,
                        "backfill":  false
                    },
                    {
@@ -211,15 +211,15 @@
                        "backfill":  false
                    },
                    {
-                       "id":  "71c9c1256227",
+                       "id":  "f2ed441f9fbb",
                        "date":  "2026-11-23T18:18:51.7743989Z",
                        "kind":  "deleted",
                        "category":  "video",
-                       "title":  "Deleted Welder_01.mp4",
+                       "title":  "Deleted the_robot_arm_pulls_backwards_V01.mp4",
                        "detail":  "",
                        "path":  "06. Exports\\AfterFX Exports",
-                       "name":  "Welder_01.mp4",
-                       "key":  "06. Exports\\AfterFX Exports\\Welder_01.mp4",
+                       "name":  "the_robot_arm_pulls_backwards_V01.mp4",
+                       "key":  "06. Exports\\AfterFX Exports\\the_robot_arm_pulls_backwards_V01.mp4",
                        "by":  "Alex Gorcik",
                        "count":  1,
                        "size":  0,
@@ -243,15 +243,15 @@
                        "backfill":  false
                    },
                    {
-                       "id":  "f2ed441f9fbb",
+                       "id":  "71c9c1256227",
                        "date":  "2026-11-23T18:18:51.7743989Z",
                        "kind":  "deleted",
                        "category":  "video",
-                       "title":  "Deleted the_robot_arm_pulls_backwards_V01.mp4",
+                       "title":  "Deleted Welder_01.mp4",
                        "detail":  "",
                        "path":  "06. Exports\\AfterFX Exports",
-                       "name":  "the_robot_arm_pulls_backwards_V01.mp4",
-                       "key":  "06. Exports\\AfterFX Exports\\the_robot_arm_pulls_backwards_V01.mp4",
+                       "name":  "Welder_01.mp4",
+                       "key":  "06. Exports\\AfterFX Exports\\Welder_01.mp4",
                        "by":  "Alex Gorcik",
                        "count":  1,
                        "size":  0,
@@ -1411,22 +1411,6 @@
                        "backfill":  true
                    },
                    {
-                       "id":  "e46a0936b02f",
-                       "date":  "2026-08-18T16:33:27.6292911Z",
-                       "kind":  "added",
-                       "category":  "video",
-                       "title":  "Added the_robot_arm_pulls_backwards_V01.mp4",
-                       "detail":  "",
-                       "path":  "06. Exports\\AfterFX Exports\\Test",
-                       "name":  "the_robot_arm_pulls_backwards_V01.mp4",
-                       "key":  "06. Exports\\AfterFX Exports\\Test\\the_robot_arm_pulls_backwards_V01.mp4",
-                       "by":  "Alex Gorcik",
-                       "count":  1,
-                       "size":  26477087,
-                       "saves":  1,
-                       "backfill":  false
-                   },
-                   {
                        "id":  "95199fe8b528",
                        "date":  "2026-08-18T16:33:27.6292911Z",
                        "kind":  "added",
@@ -1443,20 +1427,20 @@
                        "backfill":  true
                    },
                    {
-                       "id":  "fdf4671a6c5a",
-                       "date":  "2026-08-18T15:03:29.0223956Z",
+                       "id":  "e46a0936b02f",
+                       "date":  "2026-08-18T16:33:27.6292911Z",
                        "kind":  "added",
                        "category":  "video",
-                       "title":  "Added Off the Scale Laser reveal.mp4",
+                       "title":  "Added the_robot_arm_pulls_backwards_V01.mp4",
                        "detail":  "",
-                       "path":  "06. Exports\\AfterFX Exports",
-                       "name":  "Off the Scale Laser reveal.mp4",
-                       "key":  "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4",
+                       "path":  "06. Exports\\AfterFX Exports\\Test",
+                       "name":  "the_robot_arm_pulls_backwards_V01.mp4",
+                       "key":  "06. Exports\\AfterFX Exports\\Test\\the_robot_arm_pulls_backwards_V01.mp4",
                        "by":  "Alex Gorcik",
                        "count":  1,
-                       "size":  26211832,
+                       "size":  26477087,
                        "saves":  1,
-                       "backfill":  true
+                       "backfill":  false
                    },
                    {
                        "id":  "c4bfc0c1d374",
@@ -1473,6 +1457,22 @@
                        "size":  26211832,
                        "saves":  1,
                        "backfill":  false
+                   },
+                   {
+                       "id":  "fdf4671a6c5a",
+                       "date":  "2026-08-18T15:03:29.0223956Z",
+                       "kind":  "added",
+                       "category":  "video",
+                       "title":  "Added Off the Scale Laser reveal.mp4",
+                       "detail":  "",
+                       "path":  "06. Exports\\AfterFX Exports",
+                       "name":  "Off the Scale Laser reveal.mp4",
+                       "key":  "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  26211832,
+                       "saves":  1,
+                       "backfill":  true
                    },
                    {
                        "id":  "a346e564466b",
@@ -1507,22 +1507,6 @@
                        "backfill":  true
                    },
                    {
-                       "id":  "9cdb47de3f6f",
-                       "date":  "2026-08-18T13:06:29.6864933Z",
-                       "kind":  "added",
-                       "category":  "video",
-                       "title":  "Added Welder_01.mp4",
-                       "detail":  "",
-                       "path":  "06. Exports\\AfterFX Exports",
-                       "name":  "Welder_01.mp4",
-                       "key":  "06. Exports\\AfterFX Exports\\Welder_01.mp4",
-                       "by":  "Alex Gorcik",
-                       "count":  1,
-                       "size":  14745733,
-                       "saves":  1,
-                       "backfill":  true
-                   },
-                   {
                        "id":  "32a054cb29b7",
                        "date":  "2026-08-18T13:06:29.6864933Z",
                        "kind":  "added",
@@ -1537,6 +1521,22 @@
                        "size":  14745733,
                        "saves":  1,
                        "backfill":  false
+                   },
+                   {
+                       "id":  "9cdb47de3f6f",
+                       "date":  "2026-08-18T13:06:29.6864933Z",
+                       "kind":  "added",
+                       "category":  "video",
+                       "title":  "Added Welder_01.mp4",
+                       "detail":  "",
+                       "path":  "06. Exports\\AfterFX Exports",
+                       "name":  "Welder_01.mp4",
+                       "key":  "06. Exports\\AfterFX Exports\\Welder_01.mp4",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  14745733,
+                       "saves":  1,
+                       "backfill":  true
                    },
                    {
                        "id":  "6ac7328fabee",
