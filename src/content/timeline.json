@@ -1,7 +1,23 @@
 {
-    "updatedAt":  "2026-11-25T11:18:51.2695145Z",
+    "updatedAt":  "2026-11-25T12:18:52.9253649Z",
     "root":  "02. Animation",
     "events":  [
+                   {
+                       "id":  "a8282adca6bf",
+                       "date":  "2026-11-25T12:01:32.0415977Z",
+                       "kind":  "added",
+                       "category":  "edit",
+                       "title":  "Added Shot_03 \u0026 04_Sparks_V01.aep",
+                       "detail":  "",
+                       "path":  "01. After Effects\\Shot_03 \u0026 04_ Sparks",
+                       "name":  "Shot_03 \u0026 04_Sparks_V01.aep",
+                       "key":  "01. After Effects\\Shot_03 \u0026 04_ Sparks\\Shot_03 \u0026 04_Sparks_V01.aep",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  19373757,
+                       "saves":  1,
+                       "backfill":  false
+                   },
                    {
                        "id":  "0bfbf313e3a2",
                        "date":  "2026-11-25T11:14:57.0386366Z",
@@ -291,22 +307,6 @@
                        "backfill":  false
                    },
                    {
-                       "id":  "71c9c1256227",
-                       "date":  "2026-11-23T18:18:51.7743989Z",
-                       "kind":  "deleted",
-                       "category":  "video",
-                       "title":  "Deleted Welder_01.mp4",
-                       "detail":  "",
-                       "path":  "06. Exports\\AfterFX Exports",
-                       "name":  "Welder_01.mp4",
-                       "key":  "06. Exports\\AfterFX Exports\\Welder_01.mp4",
-                       "by":  "Alex Gorcik",
-                       "count":  1,
-                       "size":  0,
-                       "saves":  1,
-                       "backfill":  false
-                   },
-                   {
                        "id":  "2e28c8334cc7",
                        "date":  "2026-11-23T18:18:51.7743989Z",
                        "kind":  "deleted",
@@ -316,6 +316,22 @@
                        "path":  "06. Exports\\AfterFX Exports",
                        "name":  "Off the Scale Laser reveal.mp4",
                        "key":  "06. Exports\\AfterFX Exports\\Off the Scale Laser reveal.mp4",
+                       "by":  "Alex Gorcik",
+                       "count":  1,
+                       "size":  0,
+                       "saves":  1,
+                       "backfill":  false
+                   },
+                   {
+                       "id":  "71c9c1256227",
+                       "date":  "2026-11-23T18:18:51.7743989Z",
+                       "kind":  "deleted",
+                       "category":  "video",
+                       "title":  "Deleted Welder_01.mp4",
+                       "detail":  "",
+                       "path":  "06. Exports\\AfterFX Exports",
+                       "name":  "Welder_01.mp4",
+                       "key":  "06. Exports\\AfterFX Exports\\Welder_01.mp4",
                        "by":  "Alex Gorcik",
                        "count":  1,
                        "size":  0,
